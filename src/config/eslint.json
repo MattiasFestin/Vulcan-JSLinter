@@ -1,0 +1,681 @@
+{
+	"comma-dangle": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Trailing commas in object literals are valid according to the ECMAScript 5 (and ECMAScript 3!) spec, however IE8 (when not in IE8 document mode) and below will throw an error when it encounters trailing commas in JavaScript."
+	},
+	"no-cond-assign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In conditional statements, it is very easy to mistype a comparison operator (such as ==) as an assignment operator (such as =)."
+	},
+	"no-console": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In JavaScript that is designed to be executed in the browser, it's considered a best practice to avoid using methods on console. Such messages are considered to be for debugging purposes and therefore not suitable to ship to the client. In general, calls using console should be stripped before being pushed to production."
+	},
+	"no-constant-condition": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Comparing a literal expression in a condition is usually a typo or development trigger for a specific behavior."
+	},
+	"no-control-regex": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Control characters are special, invisible characters in the ASCII range 0-31. These characters are rarely used in JavaScript strings so a regular expression containing these characters is most likely a mistake."
+	},
+	"no-debugger": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The debugger statement is used to tell the executing JavaScript environment to stop execution and start up a debugger at the current point in the code. This has fallen out of favor as a good practice with the advent of modern debugging and development tools. Production code should definitely not contain debugger, as it will cause the browser to stop executing code and open an appropriate debugger."
+	},
+	"no-dupe-args": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In strict mode you will receive a SyntaxError if a function takes multiple arguments with the same name. Outside of strict mode duplicate arguments will mask the value of the first argument."
+	},
+	"no-dupe-keys": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Creating objects with duplicate keys in objects can cause unexpected behavior in your application. The no-dupe-keys rule flags the use of duplicate keys in object literals."
+	},
+	"no-duplicate-case": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"A switch statements with duplicate case labels is normally an indication of a programmer error."
+	},
+	"no-empty-class": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Empty character classes in regular expressions do not match anything and can result in code that may not work as intended."
+	},
+	"no-ex-assign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"When an error is caught using a catch block, it's possible to accidentally (or purposely) overwrite the reference to the error."
+	},
+	"no-extra-boolean-cast": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In contexts such as an if statement's test where the result of the expression will already be coerced to a Boolean, casting to a Boolean via double negation (!!) is unnecessary."
+	},
+	"no-extra-semi": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"JavaScript will more or less let you put semicolons after any statement without complaining. Typos and misunderstandings about where semicolons are required can lead to extra semicolons that are unnecessary."
+	},
+	"no-func-assign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"JavaScript functions can be written as a FunctionDeclaration function foo() { ... } or as a FunctionExpression var foo = function() { ... };. While a JavaScript interpreter might tolerate it, overwriting/reassigning a function written as a FunctionDeclaration is often indicative of a mistake or issue."
+	},
+	"no-invalid-regexp": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Invalid RegExp."
+	},
+	"no-irregular-whitespace": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Invalid or irregular whitespace causes issues with ECMAScript 5 parsers and also makes code harder to debug in a similar nature to mixed tabs and spaces. Various whitespace characters can be inputted by programmers by mistake for example from copying or keyboard shortcuts. Pressing Alt + Space on OS X adds in a non breaking space character for example. Known issues these spaces cause: \n* Zero Width Space\n\t* Is NOT considered a separator for tokens and is often parsed as an Unexpected token ILLEGAL\n\t* Is NOT shown in modern browsers making code repository software expected to resolve the visualisation\n* Line Separator\n\t* Is NOT a valid character within JSON which would cause parse errors. Make sure that your file is saved with __UTF-8 WITHOUT BOM__ (In SublimeText use \"Save with Encodeing -> UTF-8\")."
+	},
+	"no-negated-in-lhs": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"This error is raised to highlight a potential error. Commonly, when a developer intends to write `if(!(a in b)) // do something` they will instead write `if(!a in b) // do something`"
+	},
+	"no-obj-calls": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"ECMAScript provides several global objects that are intended to be used as-is. Some of these objects look as if they could be constructors due their capitalization (such as Math and JSON) but will throw an error if you try to execute them as functions."
+	},
+	"no-regex-spaces": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Regular expressions can be very complex and difficult to understand, which is why it's important to keep them as simple as possible in order to avoid mistakes."
+	},
+	"no-reserved-keys": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"ECMAScript 3 descibed as series of keywords and reserved words, such as if and public, that are used or intended to be used for a core language feature. The specification also indicated that these keywords and reserved words could not be used as object property names without being enclosed in strings. An error occurs in an ECMAScript 3 environment when you use a keyword or reserved word in an object literal."
+	},
+	"no-sparse-arrays": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Sparse arrays contain empty slots, most frequently due to multiple commas being used in an array literal."
+	},
+	"no-unreachable": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"A number of statements unconditionally exit a block of code. Any statements after that will not be executed and may be an error. The presence of unreachable code is usually a sign of a coding error."
+	},
+	"use-isnan": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In JavaScript, NaN is a special value of the Number type. It's used to represent any of the \"not-a-number\" values represented by the double-precision 64-bit format as specified by the IEEE Standard for Binary Floating-Point Arithmetic. NaN has the unique property of not being equal to anything, including itself. That is to say, that the condition NaN !== NaN evaluates to true."
+	},
+	"valid-jsdoc": {
+		"score":	1000,
+		"text": 	null,
+		"desc":		"JSDoc is a JavaScript API documentation generator. It uses specially-formatted comments inside of code to generate API documentation automatically."
+	},
+	"valid-typeof": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"For a vast majority of use-cases, the only valid results of the typeof operator will be one of the following: \"undefined\", \"object\", \"boolean\", \"number\", \"string\", and \"function\". When the result of a typeof operation is compared against a string that is not one of these strings, it is usually a typo. This rule ensures that when the result of a typeof operation is compared against a string, that string is in the aforementioned set."
+	},
+
+
+	"block-scoped-var": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers."
+	},
+	"consistent-return": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"One of the confusing aspects of JavaScript is that any function may or may not return a value at any point in time. When a function exits without any return statement executing, the function returns undefined. Similarly, calling return without specifying any value will cause the function to return undefined. Only when return is called with a value is there a change in the function's return value."
+	},
+	"curly": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"JavaScript allows the omission of curly braces when a block contains only one statement. However, it is considered by many to be best practice to never omit curly braces around blocks, even when they are optional, because it can lead to bugs and reduces code clarity."
+	},
+	"default-case": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Some code conventions require that all switch statements have a default case, even if the default case is empty."
+	},
+	"dot-notation": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In JavaScript, one can access properties using the dot notation (foo.bar) or square-bracket notation (foo[\"bar\"]). However, the dot notation is often preferred because it is easier to read, less verbose, and works better with aggressive JavaScript minimizers."
+	},
+	"eqeqeq": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"It is considered good practice to use the type-safe equality operators === and !== instead of their regular counterparts == and !=. The reason for this is that == and != do type coercion which follows the rather obscure Abstract Equality Comparison Algorithm."
+	},
+	"guard-for-in": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Looping over objects with a for in loop will include properties that are inherited through the prototype chain. This behavior can lead to unexpected items in your for loop."
+	},
+	"no-alert": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"JavaScripts' alert, confirm, and prompt functions are widely considered to be obtrusive as UI elements and should be replaced by a more appropriate custom UI implementation. Furthermore, alert is often used while debugging code, which should be removed before deployment to production."
+	},
+	"no-caller": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The use of arguments.caller and arguments.callee make several code optimizations impossible. They have been deprecated in future versions of JavaScript and their use is forbidden in ECMAScript 5 while in strict mode."
+	},
+	"no-div-regex": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Require regex literals to escape division operators."
+	},
+	"no-eq-null": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Comparing to null without a type-checking operator (== or !=), can have unintended results as the comparison will evaluate to true when comparing to not just a null, but also an undefined value."
+	},
+	"no-eval": {
+		"score":	90000,
+		"text": 	null,
+		"desc":		"JavaScript's eval() function is potentially dangerous and is often misused. Using eval() on untrusted code can open a program up to several different injection attacks. The use of eval() in most contexts can be substituted for a better, alternative approach to a problem."
+	},
+	"no-extend-native": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In JavaScript, you can extend any object, including builtin or \"native\" objects. Sometimes people change the behavior of these native objects in ways that break the assumptions made about them in other parts of the code."
+	},
+	"no-extra-bind": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Function binding makes no difference in function expressions, when the function does not use this."
+	},
+	"no-fallthrough": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The switch statement in JavaScript is one of the more error-prone constructs of the language thanks in part to the ability to \"fall through\" from one case to the next. "
+	},
+	"no-floating-decimal": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Float values in JavaScript contain a decimal point, and there is no requirement that the decimal point be preceded or followed by a number."
+	},
+	"no-implied-eval": {
+		"score":	90000,
+		"text": 	null,
+		"desc":		"It's considered a good practice to avoid using eval() in JavaScript. There are security and performance implications involved with doing so, which is why many linters (including ESLint) disallow eval() by default. However, there are some other ways to pass a string and have it interpreted as JavaScript code that have similar concerns."
+	},
+	"no-iterator": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The __iterator__ property can used to create custom iterators that are compatible with JavaScript's for in and for each constructs. However, this property is not supported in many browsers, so it should be used with caution"
+	},
+	"no-labels": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"This rule aims to eliminate the use of labeled statements in JavaScript. It will warn whenever a labeled statement is encountered and whenever break or continue are used with a label."
+	},
+	"no-lone-blocks": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"This rule aims to eliminate unnecessary and potentially confusing blocks at the top level of a script or within other blocks."
+	},
+	"no-loop-func": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"This error is raised to highlight a piece of code that may not work as you expect it to and could also indicate a misunderstanding of how the language works. Your code may run without any problems if you do not fix this error, but in some situations it could behave unexpectedly."
+	},
+	"no-multi-spaces": {
+		"score":	1000,
+		"text": 	null,
+		"desc":		"All labled statements should be eliminated. It causes hard to follow code. It is like a GOTO."
+	},
+	"no-multi-str": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Multiline strings should not be used. Some consider this to be a bad practice as it was an undocumented feature of JavaScript that was only formalized later. If a space is efter the escape character then there is an error, wich is realy hard to spot."
+	},
+	"no-native-reassign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Reports an error when they encounter an attempt to assign a value to built-in native object. It causes confusion about standard feauters and behavior."
+	},
+	"no-new": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Maintaining consistency and convention by disallowing constructor calls using the new keyword that do not assign the resulting object to a variable."
+	},
+	"no-new-func": {
+		"score":	90000,
+		"text": 	null,
+		"desc":		"This error is raised to highlight the use of a bad practice. By passing a string to the Function constructor, you are requiring the engine to parse that string much in the way it has to when you call the eval function."
+	},
+	"no-new-wrappers": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"There are three primitive types in JavaScript that have wrapper objects: string, number, and boolean. These are represented by the constructors String, Number, and Boolean, respectively. The primitive wrapper types are used whenever one of these primitive values is read, providing them with object-like capabilities such as methods. Behind the scenes, an object of the associated wrapper type is created and then destroyed, which is why you can call methods on primitive values"
+	},
+	"no-octal": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The leading zero to identify an octal literal has been a source of confusion and error in JavaScript. ECMAScript 5 deprecates the use of octal numeric literals in JavaScript and octal literals cause syntax errors in strict mode."
+	},
+	"no-octal-escape": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"As of version 5 of the ECMAScript specification, octal escape sequences are a deprecated feature and should not be used. It is recommended that Unicode escapes be used instead."
+	},
+	"no-param-reassign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Assignment to variables declared as function parameters can be misleading and lead to confusing behavior, as modifying function parameters will also mutate the arguments object. Often, assignment to function parameters is unintended and indicative of a mistake or programmer error."
+	},
+	"no-process-env": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The process.env object in Node.js is used to store deployment/configuration parameters. Littering it through out a project could lead to maintenance issues as it's another kind of global dependency. As such, it could lead to merge conflicts in a multi-user setup and deployment issues in a multi-server setup. Instead, one of the best practices is to define all those parameters in a single configuration/settings file which could be accessed throughout the project."
+	},
+	"no-proto": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"__proto__ property has been deprecated as of ECMAScript 3.1 and shouldn't be used in the code. Use getPrototypeOf method instead."
+	},
+	"no-redeclare": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"In JavaScript, it's possible to redeclare the same variable name using var. This can lead to confusion as to where the variable is actually declared and initialized."
+	},
+	"no-return-assign": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"One of the interesting, and sometimes confusing, aspects of JavaScript is that assignment can happen at almost any point. Because of this, an errant equals sign can end up causing assignment when the true intent was to do a comparison. This is especially true when using a return statement."
+	},
+	"no-script-url": {
+		"score":	90000,
+		"text": 	null,
+		"desc":		"Using javascript: urls is considered by some as a form of eval. Script passed after javascript: has to be parsed and evaluated by the browser the same way that it does eval."
+	},
+	"no-self-compare": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Comparing a variable against itself is usually an error, either an typo or refactoring error. It is confusing to the reader and may potentially introduce a runtime error. The only time you would compare a variable against itself is when you are testing for NaN. However, it is far more appropriate to use the isNaN() function for that use case rather than leaving the reader of the code to determine the intent of self comparison."
+	},
+	"no-sequences": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The comma operator includes multiple expressions where only one is expected. It evaluates each operand from left to right and returns the value of the last operand. However, this frequently obscures side effects, and its use is often an accident."
+	},
+	"no-throw-literal": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"It is considered good practice to only throw the Errorobject itself or an object using the Error object as base objects for user-defined exceptions. The fundamental benefit of Error objects is that they automatically keep track of where they were built and originated."
+	},
+	"no-unused-expressions": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"Unused expressions are those expressions that evaluate to a value but are never used. "
+	},
+	"no-void": {
+		"score":	9000,
+		"text": 	null,
+		"desc":		"The void operator takes operand and returns undefined: void expression will evaluate expression and return undefined. It makes the code harder to read."
+	},
+	"no-warning-comments": {
+		"score":	1000,
+		"text":		null,
+		"desc":		"Often code is marked during development process for later work on it or with additional thoughts. Examples are typically // TODO: do something or // FIXME: this is not a good idea. These comments are a warning signal, that there is something not production ready in your code. Most likely you want to fix it or remove the comments before you roll out your code with a good feeling."
+	},
+	"no-with": {
+		"score":	15000,
+		"text": 	null,
+		"desc":		"The with statement is potentially problematic because it adds members of an object to the current scope, making it impossible to tell what a variable inside the block actually refers to. Additionally, the with statement cannot be used in strict mode."
+	},
+	"radix": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"When using the parseInt() function it is common to omit the second argument, the radix, and let the function try to determine from the first argument what type of number it is. By default, parseInt() will autodetect decimal and hexadecimal (via 0x prefix). Prior to ECMAScript 5, parseInt() also autodetected octal literals, which caused problems because many developers assumed a leading 0 would be ignored."
+	},
+	"vars-on-top": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Variable declarations should be used serially at the top of a function scope or the top of a program. By default variable declarations are always moved (“hoisted”) invisibly to the top of their containing scope by the JavaScript interpreter. This rule forces the programmer to represent that behaviour by manually moving the variable declaration to the top of its containing scope."
+	},
+	"wrap-iife": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Since function statements cannot be immediately invoked, and function expressions can be, a common technique to create an immediately-invoked function expression is to simply wrap a function statement in parentheses. The opening parentheses causes the contained function to be parsed as an expression, rather than a declaration."
+	},
+	"yoda": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Proponents of Yoda conditions highlight that it is impossible to mistakenly use = instead of == because you cannot assign to a literal value. Doing so will cause a syntax error and you will be informed of the mistake early on."	
+	},
+
+
+	"strict": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"When used globally the entire script, including all contained functions, are strict mode code. It is also possible to specify function-level strict mode, such that strict mode applies only to the function in which the directive occurs. In older browsers this statments has no effect, it is ignored as intended by the ES5.1 standard."
+	},
+
+
+	"no-catch-shadow": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"In IE 8 and earlier, the catch clause parameter can overwrite the value of a variable in the outer scope, if that variable has the same name as the catch clause parameter."
+	},
+	"no-delete-var": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The delete operator will only delete the properties of objects. It cannot \"delete\" variables or anything else. Using them on variables might lead to unexpected behavior. Manually set to undefiend instead."
+	},
+	"no-shadow": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Shadowing is the process by which a local variable shares the same name as a variable in its containing scope."
+	},
+	"no-shadow-restricted-names": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"ES5 §15.1.1 Value Properties of the Global Object (NaN, Infinity, undefined) as well as strict mode restricted identifiers eval and arguments are considered to be restricted names in JavaScript. Defining them to mean something else can have unintended consequences and confuse others reading the code."
+	},
+	"no-undef": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer)."
+	},
+	"no-undef-init": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"It's considered a best practice to avoid initializing variables to undefined. In JavaScript, a variable that is declared and not initialized to any value automatically gets the value of undefined."
+	},
+	"no-unused-vars": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Variables that are declared and not used anywhere in the code are most likely an error due to incomplete refactoring. Such variables take up space in the code and can lead to confusion by readers."
+	},
+	"no-use-before-define": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Since variable and function declarations are hoisted to the top of a scope, it's possible to use identifiers before their formal declarations in code. This can be confusing and some believe it is best to always declare variables and functions before using them.\nIt takes an optional option as the second parameter which can be \"nofunc\" to allow named function definitions to be used before the location where they are defined."
+	},
+
+
+	"handle-callback-err": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"In node, a common pattern for dealing with asynchronous behavior is called the callback pattern. This pattern expects as the first argument of the callback an Error object, which may be null. Forgetting to handle these errors can lead to some really strange behavior in your application."
+	},
+	"no-mixed-requires": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"In the Node.JS community it is often customary to separate the required modules from other variable declarations, sometimes also grouping them by their type. This rule helps you enforce this convention."
+	},
+	"no-new-require": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The require function is used to include modules that exist in separate files. Some modules return a constructor which can potentially lead to code such as `var appHeader = new require('app-header');` Unfortunately, this introduces a high potential for confusion since the code author likely meant to write: `var appHeader = new (require('app-header'));`"
+	},
+	"no-path-concat": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"In Node.js, the __dirname and __filename global variables contain the directory path and the file path of the currently executing script file, respectively. Sometimes, developers try to use these variables to create paths to other files."
+	},
+	"no-process-exit": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The process.exit() method in Node.js is used to immediately stop the Node.js process and exit. This is a dangerous operation because it can occur in any method at any point in time, potentially stopping a Node.js application completely when an error occurs. It's usually better to throw an error and allow the application to handle it appropriately.\nBy throwing an error in this way, other parts of the application have an opportunity to handle the error rather than stopping the application altogether. If the error bubbles all the way up to the process without being handled, then the process will exit and a non-zero exit code will returned, so the end result is the same."
+	},
+	"no-sync": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"In Node.js, most I/O is done through asynchronous methods. However, there are often synchronous versions of the asynchronous methods. For example, fs.exists() and fs.existsSync(). In some contexts, using synchronous operations is okay (if, as with ESLint, you are writing a command line utility). However, in other contexts the use of synchronous operations is considered a bad practice that should be avoided. For example, if you are running a high-travel web server on Node.js, you should consider carefully if you want to allow any synchronous operations that could lock up the server."
+	},
+
+
+	"indent": {
+		"score":	500,
+		"text":		null,
+		"desc":		"Only tabs should be used.",
+		"value":	[2, "tab"]
+	},
+	"brace-style": {
+		"score":	500,
+		"text":		null,
+		"desc":		"This rule is aimed at enforcing a particular brace style in JavaScript. As such, it warns whenever it sees a statement or declaration that does not adhere to the one true brace style.",
+		"value": 	[2, "1tbs"]
+	},
+	"camelcase": {
+		"score":	500,
+		"text":		null,
+		"desc": 	"This rule looks for any underscores (_) located within the source code. It ignores leading and trailing underscores and only checks those in the middle of a variable name. If ESLint decides that the variable is a constant (all uppercase), then no warning will be thrown. Otherwise, a warning will be thrown. This rule only flags definitions and assignments but not function calls."
+	},
+	"comma-style": {
+		"score":	500,
+		"text":		null,
+		"desc": 	"The justifications for using Comma-First is that it helps tracking missing and trailing commas. In case linting is turned off, missing commas in variable declarations lead to leakage of global variables and trailing commas lead to errors in older versions of IE.",
+		"value":	[2, "first"]
+	},
+	"consistent-this": {
+		"score":	9000,
+		"text":		null,
+		"desc": 	"It is often necessary to capture the current execution context in order to make it available subsequently. Only \"self\" should be used when binding the current context to a variable.",
+		"value":	[0, "self"]
+	},
+	"eol-last": {
+		"score":	50,
+		"text":		null,
+		"desc": 	"Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs."
+	},
+	"func-names": {
+		"score":	9000,
+		"text":		null,
+		"desc": 	"If you leave off the function name then when the function throws an exception you are likely to get something similar to anonymous function in the stack trace. If you provide the optional name for a function expression then you will get the name of the function expression in the stack trace."	
+	},
+	"func-style": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The primary difference between function declarations and function expressions is that declarations are hoisted to the top of the scope in which they are defined, which allows you to write code that uses the function before the declaration. This can lead to hard to follow logic. It is easier to find the functions if you know they are above the current statement.",
+		"value":	[2, "expression"]
+	},
+	"key-spacing": {
+		"score":	100,
+		"text":		null,
+		"desc":		"Enforces spacing around the colon in object literal properties. It can verify each property individually, or it can ensure vertical alignment of groups of properties in an object literal.",
+		"value":	[2, {
+			"beforeColon": false,
+			"afterColon": true,
+			"align": "colon"
+		}]
+	},
+	"max-nested-callbacks": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Many JavaScript libraries use the callback pattern to manage asynchronous operations. A program of any complexity will most likely need to manage several asynchronous operations at various levels of concurrency. A common pitfall that is easy to fall into is nesting callbacks, which makes code more difficult to read the deeper the callbacks are nested. This rule is aimed at increasing code clarity by discouraging deeply nesting callbacks. As such, it will warn when callbacks are nested deeper than the specified limit.",
+		"value":	[2, 3]
+	},
+	"new-cap": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The new operator in JavaScript creates a new instance of a particular type of object. That type of object is represented by a constructor function. Since constructor functions are just regular functions, the only defining characteristic is that new is being used as part of the call. Native JavaScript functions begin with an uppercase letter to distinguish those functions that are to be used as constructors from functions that are not. Many style guides recommend following this pattern to more easily determine which functions are to be used as constructors.",
+		"value":	[2, 3]
+	},
+	"new-cap": "NOT_WORKING",
+	"new-parens": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"JavaScript allows the omission of parentheses when invoking a function via the new keyword and the constructor has no arguments. However, some coders believe that omitting the parentheses is a bug, wich creates confusion."
+	},
+	"newline-after-var": {
+		"score":	500,
+		"text":		null,
+		"desc":		"The problem is when these developers work together in a project. This rule enforces a coding style where empty newlines are allowed or disallowed after var statement. It helps the code to look consistent across the entire project.",
+		"value":	[2, "never"]
+	},
+	"no-array-constructor": {
+		"score":	500,
+		"text":		null,
+		"desc":		"Use of the Array constructor to construct a new array is generally discouraged in favour of array literal notation because of the single-argument pitfall and because the Array global may be redefined."
+	},
+	"no-inline-comments": {
+		"score":	1000,
+		"text":		null,
+		"desc":		"If there are comments immediately following code, it can make it harder to read the code."
+	},
+	"no-lonely-if": {
+		"score":	500,
+		"text":		null,
+		"desc":		"If an if statement is the only statement in the else block of a parent if statement, it is often clearer to combine the two to using else if form."
+	},
+	"no-mixed-spaces-and-tabs": {
+		"score":	500,
+		"text":		null,
+		"desc":		"Only tabs should be used for indentation. As such, it's usually an error if a single line of code is indented with both tabs and spaces."
+	},
+	"no-multiple-empty-lines": {
+		"score":	500,
+		"text":		null,
+		"desc":		"Max 2 lines of empty lines should be used. Some developers prefer to have multiple blank lines removed, while others feel that it helps improve readability. Whitespace is useful for separating logical sections of code, but excess whitespace takes up more of the screen.",
+		"value":	[2, {"max": 2}]
+	},
+	"no-nested-ternary": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Nesting ternary expressions makes code unclear. The no-nested-ternary rule disallows the use of nested ternary expressions."
+	},
+	"no-new-object": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The Object constructor is used to create new generic objects in JavaScript, such as:\n`var myObject = new Object();`\nHowever, this is no different from using the more concise object literal syntax:\n`var myObject = {};`\nFor this reason, many prefer to always use the object literal syntax and never use the Object constructor.\nWhile there are no performance differences between the two approaches, the byte savings and conciseness of the object literal form is what has made it the de facto way of creating new objects."
+	},
+	"no-ternary": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The ternary operator is used to conditionally assign a value to a variable. The use of ternary operators leads to unclear code. Use if/else instead."
+	},
+	"no-trailing-spaces": {
+		"score":	500,
+		"text":		null,
+		"desc":		"Sometimes in the course of editing files, you can end up with extra whitespace at the end of lines. These whitespace differences can be picked up by source control systems and flagged as diffs, causing frustration for developers. While this extra whitespace causes no functional issues, many code conventions require that trailing spaces be removed before checkin."
+	},
+	"no-underscore-dangle": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"There is actually a long history of using dangling underscores to indicate \"private\" members of objects in JavaScript (though JavaScript doesn't have truly private members, this convention served as a warning). This began with SpiderMonkey adding nonstandard methods such as __defineGetter__(). The intent with the underscores was to make it obvious that this method was special in some way. Since that time, using a single underscore prefix has become popular as a way to indicate \"private\" members of objects.\nUse a function closure instead to make the variable private, a nameing convention provides no safty!"
+	},
+	"no-wrap-func": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Although it's possible to wrap functions in parentheses, this can be confusing when the code also contains immediately-invoked function expressions (IIFEs) since parentheses are often used to make this distinction. "
+	},
+	"one-var": {
+		"score":	2000,
+		"text":		null,
+		"desc":		"This rule is aimed at preventing a possible misunderstanding about scoping of variables and to enforce a single variable declaration convention. As such, it will warn when it encounters more than one variable declaration statement in a function scope.",
+		"value":	[2, "always"]
+	},
+	"operator-assignment": {
+		"score":	2000,
+		"text":		null,
+		"desc":		"JavaScript provides shorthand operators that combine variable assignment and some simple mathematical operations. For example, x = x + 4 can be shortened to x += 4. The supported shorthand forms are as follows. This rule enforces use of the shorthand assignment operators by requiring them where possible or prohibiting them entirely.",
+		"value":	[2, "always"]
+	},
+	"padded-blocks": {
+		"score":	1000,
+		"text":		null,
+		"desc":		"JavaScript provides shorthand operators that combine variable assignment and some simple mathematical operations. For example, x = x + 4 can be shortened to x += 4. The supported shorthand forms are as follows. This rule enforces use of the shorthand assignment operators by requiring them where possible or prohibiting them entirely.",
+		"value":	[2, "never"]
+	},
+	"quote-props": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"`var object = {\n    1e2: 1,\n    100: 2\n};`\nThis may look alright on first sight, but this code in fact throws a syntax error in strict mode. This happens because 1e2 and 100 are coerced into strings before getting used as the property name. Both String(1e2) and String(100) happen to be equal to \"100\", which causes the “Duplicate data property in object literal not allowed in strict mode” error. Issues like that can be tricky to debug. Yet, they can easily be avoided, by simply always quoting property names in object literals.",
+		"value":	[2, "as-needed"]
+	},
+	"semi": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"JavaScript is unique amongst the C-like languages in that it doesn't require semicolons at the end of each statement. In many cases, the JavaScript engine can determine that a semicolon should be in a certain spot and will automatically add it. This feature is known as automatic semicolon insertion (ASI) and is considered one of the more controversial features of JavaScript. The rationale is that it's easier to always include semicolons than to try to remember when they are or are not required, and thus decreases the possibility of introducing an error. For example, consider this code:\n`return\n{\n    name: \"ESLint\"\n}`",
+		"value":	[2, "always"]
+	},
+	"sort-vars": {
+		"score":	1,
+		"text":		null,
+		"desc":		"When declaring multiple variables within the same block, some developers prefer to sort variable names alphabetically to be able to find necessary variable easier at the later time.",
+		"value":	[2, {"ignoreCase": true}]
+	},
+	"space-after-keywords": {
+		"score":	50,
+		"text":		null,
+		"desc":		"This rule will enforce consistency of spacing after the keywords if, else, for, while, do, switch, try, catch, finally, and with.",
+		"value":	[2, "always"]
+	},
+	"space-before-blocks": {
+		"score":	50,
+		"text":		null,
+		"desc":		"Consistency is an important part of any style guide. While it is a personal preference where to put the opening brace of blocks, it should be consistent across a whole project.",
+		"value":	[2, "always"]
+	},
+	"space-before-function-paren": {
+		"score":	50,
+		"text":		null,
+		"desc":		"When formatting a function, whitespace is allowed between the function name or function keyword and the opening paren. Named functions also require a space between the function keyword and the function name, but anonymous functions require no whitespace.",
+		"value":	[2, "always"]
+	},
+	"space-in-brackets": {
+		"score":	50,
+		"text":		null,
+		"desc":		"This rule aims to maintain consistency around the spacing inside of square brackets, by disallowing spaces inside of brackets between the brackets and other tokens.",
+		"value":	[2, "never"]
+	},
+	"space-in-parens": {
+		"score":	50,
+		"text":		null,
+		"desc":		"This rule will enforce consistency of spacing directly inside of parentheses, by disallowing one or more spaces to the right of ( and to the left of ).",
+		"value":	[2, "never"]
+	},
+	"space-infix-ops": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"This rule is aimed at ensuring there are spaces around infix operators. This is to minimize errors with confusion, such as: `var sum = i+++2;`"
+	},
+	"space-return-throw-case": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Require spaces following return, throw, and case."
+	},
+	"space-unary-ops": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"Spaces are required before or after unary operators. This is mainly a stylistic issue, however, some JavaScript expressions can be written without spacing which makes it harder to read and maintain. For example `typeof!foo` or `new[foo][0]`"
+	},
+	"spaced-line-comment": {
+		"score":	1,
+		"text":		null,
+		"desc":		"A whitespace should immediately after the initial // of a line comment. Whitespace after the // makes it easier to read text in comments. On the other hand, commenting out code is easier without having to put a whitespace right after the //.",
+		"value":	[2, "always"]
+	},
+	"spaced-line-comment": "NOT_USED",
+	"wrap-regex": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"When a regular expression is used in certain situation, it can end up looking like a division operator. So it is best to always wrap it in parentheses. This is used to disambiguate the slash operator and facilitates in more readable code."
+	},
+
+	"no-bitwise": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"The use of bitwise operators in JavaScript is very rare and often & or | is simply a mistyped && or ||, which will lead to unexpected behavior."
+	},
+	"no-plusplus": {
+		"score":	9000,
+		"text":		null,
+		"desc":		"This rule is aimed at flagging the use of ++ and --. Some believe that the use of these unary operators reduces code quality and clarity. There are some programming languages that completely exclude these operators."
+	}
+}

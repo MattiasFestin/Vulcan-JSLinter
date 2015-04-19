@@ -1,0 +1,13 @@
+{
+	"dir": [
+		"./examples/**/*.js"
+	],
+	"tests": [
+		"./test/**/*.js"
+	],
+	"env": ["browser"],
+	"gui": true,
+	"watch": true,
+	"output": "./report.json",
+	"verbose": true
+}
