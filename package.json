@@ -1,8 +1,8 @@
 {
-  "name": "jsChecker",
-  "version": "0.0.0",
+  "name": "vulcan-jslinter",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

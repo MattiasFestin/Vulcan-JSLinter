@@ -27,14 +27,12 @@ var rules = [].concat(
 //Local state
 var err = [],
 	report = {},
-	eslintConfig = require('./config/eslint.json'),
-	gui;
+	eslintConfig = require('./config/eslint.json');
 
 
 //Remove all disabled keys
 _.forEach(eslintConfig, function (key, value) {
 	if (_.isObject(value)) {
-		console.log(key);
 		delete eslintConfig[key];
 	}
 });
@@ -109,7 +107,7 @@ var runner = function runnerFn() {
 					});
 					eslinter(code, file.path, program, eslintConfig, err);
 				} catch (e) {
-					console.error('SYNTAX ERROR:' + e);
+					if (require.main === module) { console.error('SYNTAX ERROR:' + e); }
 					err.push({
 						file: file.path,
 						stack: e.stack,
@@ -136,9 +134,8 @@ var runner = function runnerFn() {
 		.on('end', function onEndFn () {
 			report = generateReport.generate(err);
 
-			console.log('Generateing report...');
-
-			if (process.argv) {
+			if (require.main === module) {
+				console.log('Generateing report...');
 				generateReport.print(program, report);
 			} else {
 				events.emit('report', report);
@@ -150,7 +147,7 @@ var runner = function runnerFn() {
 			}
 		})
 		.on('error', function onErrorFn (err) {
-			console.error(err);
+			if (require.main === module) { console.error(err); }
 			events.emit('error', err);
 		});
 };
