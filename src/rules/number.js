@@ -6,43 +6,19 @@ module.exports = [
                 err.push({
                     file: o.__file__,
                     loc: o.loc,
-                        text: o.operator[0] + '= ska användas istället i slutet/början av loopen. Använd jämförelseoperator istället i test vilkoret! (dvs: <, <=, ===, >=, >, !==)',
-                    desc: 'Pga att går inte göra fel med post/pre ökning. Minskar risken för out of bounds error i loopen.',
+                        text: o.operator[0] + '= should be used instead in the begining or end of the loop. Use these comparison operators instead: (dvs: <, <=, ===, >=, >, !==)',
+                    desc: 'Removes the problem of choosing wrong order of operations because of pre/post increment/decrement.',
                     score: 100
                 });
             } else {
                 err.push({
                     file: o.__file__,
                     loc: o.loc,
-                    text: o.operator[0] + '= ska användas istället.',
-                    desc: 'Pga att går inte göra fel med post/pre ökning. Samt det går enkelt ändra om ett annat antal ska ökas.',
+                    text: o.operator[0] + '= should be used instead.',
+                    desc: 'Removes the problem of choosing wrong order of operations because of pre/post increment/decrement.',
                     score: 80
                 });
             }
         }
     }
-
-    // function (o, state, err) {
-    //  if (o.type === 'CallExpression' && o.callee.name === 'parseInt' && o.arguments.length === 1) {
-    //      err.push({
-    //          file: o.__file__,
-    //          loc: o.loc,
-    //          text: 'Lägg till extra parameter för att ange vilken bas som ska användas (radix parameter)',
-    //          desc: 'Pga att om strängen har en inledande nolla så tolkas det som en oktal siffra.',
-    //          score: 80
-    //      });
-    //  }
-    // },
-
-    // function (o, state, err) {
-    //  if (o.type === 'BinaryExpression' && (o.left.name === 'NaN' || o.right.name === 'NaN')) {
-    //      err.push({
-    //          file: o.__file__,
-    //          loc: o.loc,
-    //          text: 'Om du vill utföra jämförelseoperator med NaN, använd "typeof x === \'number\' && isNaN(x)"',
-    //          desc: 'Pga att NaN inte går att jämföra mot. (isNaN typkonverterar automatiskt till ett nummer. Det är därför typeof kontrollen behövs vid användning av isNaN)',
-    //          score: 80
-    //      });
-    //  }
-    // }
 ];

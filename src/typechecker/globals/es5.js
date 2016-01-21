@@ -3,6 +3,8 @@ var _ = require('lodash'),
         'use strict';
         return _.extend(Object.freeze(o1), o2);
     },
+
+    //Global javascript scope
     globals = Object.freeze({
         __type__: globals,
 
@@ -320,6 +322,6 @@ var _ = require('lodash'),
     });
 
 module.exports = {
-    globasl: Object.create(globals),
+    globals: Object.create(globals),
     __operators__: Object.create(__operators__)
 };

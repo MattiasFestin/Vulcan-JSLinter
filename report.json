@@ -19,7 +19,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tdefault:\n\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -35,7 +36,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tdefault:\n\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -51,7 +53,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tdefault:\n\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -67,7 +70,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -83,7 +87,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -99,7 +104,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -115,7 +121,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "} else if (x = 5) {\n\talert(x);\n}\n"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -131,7 +138,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "} else if (x = 5) {\n\talert(x);\n}\n"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -147,7 +155,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "} else if (x = 5) {\n\talert(x);\n}\n"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -163,7 +172,8 @@
                             "column": 7
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\talert(x);\n} else if (x = 5) {\n\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -179,7 +189,8 @@
                             "column": 7
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\talert(x);\n} else if (x = 5) {\n\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -195,7 +206,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "if (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -211,7 +223,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "if (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -227,7 +240,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "if (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -243,7 +257,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var x;\nif (x = 3) {\n\talert(x);\n} else if (x = 5) {"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -259,7 +274,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var x;\nif (x = 3) {\n\talert(x);\n} else if (x = 5) {"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -278,7 +294,8 @@
                     "desc": "",
                     "score": 1913,
                     "value": 61,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\nif (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);\n}\n\nswitch (x = 7) {\n\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:\n\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -297,7 +314,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 1453,
                     "value": 1453,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\nif (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);\n}\n\nswitch (x = 7) {\n\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:\n\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -313,7 +331,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\t\talert(x);\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_condition.js",
@@ -332,7 +351,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 19,
                     "value": 3,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\nif (x = 3) {\n\talert(x);\n} else if (x = 5) {\n\talert(x);\n}\n\nswitch (x = 7) {\n\tcase 1:\n\t\talert(x);\n\t\tbreak;\n\tdefault:\n\t\talert(x);\n}"
                 }
             ],
             "halstead": 1453,
@@ -358,7 +378,8 @@
                             "column": 0
                         }
                     },
-                    "score": 90000
+                    "score": 90000,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -374,7 +395,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "window.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -390,7 +412,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "window.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -406,7 +429,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "window.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -422,7 +446,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -438,7 +463,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -457,7 +483,8 @@
                     "desc": "",
                     "score": 941,
                     "value": 81,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -476,7 +503,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 67,
                     "value": 67,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -492,7 +520,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "window.eval('1==2');\r\nwindow['eval']('1==2');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/eval.js",
@@ -511,7 +540,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "eval('1==2');\r\nwindow.eval('1==2');\r\nwindow['eval']('1==2');"
                 }
             ],
             "halstead": 67,
@@ -521,7 +551,7 @@
         {
             "file": "examples/compare_literal.js",
             "maxScore": 9000,
-            "score": 115959,
+            "score": 116559,
             "errors": [
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -537,7 +567,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -553,7 +584,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -569,7 +601,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -585,7 +618,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -601,7 +635,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -617,7 +652,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -633,7 +669,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -649,7 +686,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -665,7 +703,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -681,7 +720,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -697,7 +737,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -713,7 +754,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -732,7 +774,110 @@
                     "desc": "",
                     "score": 1537,
                     "value": 69,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 6,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 6
+                        }
+                    },
+                    "text": ">= ska inte användas mellan två literära datatyper",
+                    "desc": "1 >= 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 > 2;\r\n1 >= 2;"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 5,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 5
+                        }
+                    },
+                    "text": "> ska inte användas mellan två literära datatyper",
+                    "desc": "1 > 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 4,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 6
+                        }
+                    },
+                    "text": "<= ska inte användas mellan två literära datatyper",
+                    "desc": "1 <= 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 5
+                        }
+                    },
+                    "text": "< ska inte användas mellan två literära datatyper",
+                    "desc": "1 < 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 7
+                        }
+                    },
+                    "text": "!== ska inte användas mellan två literära datatyper",
+                    "desc": "1 !== 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 7
+                        }
+                    },
+                    "text": "=== ska inte användas mellan två literära datatyper",
+                    "desc": "1 === 2 kommer alltid procducera samma boolean värde",
+                    "score": 1000,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -751,103 +896,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 972,
                     "value": 972,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 6,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 6,
-                            "column": 6
-                        }
-                    },
-                    "text": ">= ska inte användas mellan två literära datatyper",
-                    "desc": "1 >= 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 5,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 5,
-                            "column": 5
-                        }
-                    },
-                    "text": "> ska inte användas mellan två literära datatyper",
-                    "desc": "1 > 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 4,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 6
-                        }
-                    },
-                    "text": "<= ska inte användas mellan två literära datatyper",
-                    "desc": "1 <= 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 3,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 5
-                        }
-                    },
-                    "text": "< ska inte användas mellan två literära datatyper",
-                    "desc": "1 < 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 7
-                        }
-                    },
-                    "text": "!== ska inte användas mellan två literära datatyper",
-                    "desc": "1 !== 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 7
-                        }
-                    },
-                    "text": "=== ska inte användas mellan två literära datatyper",
-                    "desc": "1 === 2 kommer alltid procducera samma boolean värde",
-                    "score": 900
+                    "noPlace": true,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -863,7 +913,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "1 > 2;\r\n1 >= 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/compare_literal.js",
@@ -882,255 +933,13 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 === 2;\r\n1 !== 2;\r\n1 < 2;\r\n1 <= 2;\r\n1 > 2;\r\n1 >= 2;"
                 }
             ],
             "halstead": 972,
             "cyclomatic": 1,
             "maintainability": 69
-        },
-        {
-            "file": "examples/loop_types.js",
-            "maxScore": 9000,
-            "score": 66953,
-            "errors": [
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "All \"var\" declarations must be at the top of the function scope.",
-                    "desc": "Variable declarations should be used serially at the top of a function scope or the top of a program. By default variable declarations are always moved (“hoisted”) invisibly to the top of their containing scope by the JavaScript interpreter. This rule forces the programmer to represent that behaviour by manually moving the variable declaration to the top of its containing scope.",
-                    "loc": {
-                        "start": {
-                            "line": 5,
-                            "column": 5
-                        },
-                        "end": {
-                            "line": 5,
-                            "column": 5
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "'y' is not defined.",
-                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
-                    "loc": {
-                        "start": {
-                            "line": 3,
-                            "column": 9
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 9
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "\"y\" used outside of binding context.",
-                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
-                    "loc": {
-                        "start": {
-                            "line": 3,
-                            "column": 9
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 9
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "Missing semicolon.",
-                    "desc": "JavaScript is unique amongst the C-like languages in that it doesn't require semicolons at the end of each statement. In many cases, the JavaScript engine can determine that a semicolon should be in a certain spot and will automatically add it. This feature is known as automatic semicolon insertion (ASI) and is considered one of the more controversial features of JavaScript. The rationale is that it's easier to always include semicolons than to try to remember when they are or are not required, and thus decreases the possibility of introducing an error. For example, consider this code:\n`return\n{\n    name: \"ESLint\"\n}`",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 4
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 4
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "'d' is not defined.",
-                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 1
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "\"d\" used outside of binding context.",
-                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 1
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 5,
-                            "column": 32
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "text": "Tomma kodblock ska ej förekomma.",
-                    "desc": "Om det är en if/else-if sats, så negera logiken. Annars om syfte saknas så ta bort detta block!.",
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "type": "maintainability",
-                    "text": "Maintainability på \"73\" [1-100].",
-                    "desc": "",
-                    "score": 1325,
-                    "value": 73,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 5,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "text": "Den enda tillåtna loop typen är WHILE.",
-                    "desc": "De andra looptyperna är svårare att läsa och är while-loopar med extra syntax",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 12
-                        }
-                    },
-                    "text": "Den enda tillåtna loop typen är WHILE.",
-                    "desc": "De andra looptyperna är svårare att läsa och är while-loopar med extra syntax",
-                    "score": 900
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "Trailing spaces not allowed.",
-                    "desc": "Sometimes in the course of editing files, you can end up with extra whitespace at the end of lines. These whitespace differences can be picked up by source control systems and flagged as diffs, causing frustration for developers. While this extra whitespace causes no functional issues, many code conventions require that trailing spaces be removed before checkin.",
-                    "loc": {
-                        "start": {
-                            "line": 6,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 6,
-                            "column": 1
-                        }
-                    },
-                    "score": 500
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "type": "halstead",
-                    "text": "Halstead effort på \"259\".",
-                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
-                    "score": 259,
-                    "value": 259,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "text": "Newline required at end of file but not found.",
-                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
-                    "loc": {
-                        "start": {
-                            "line": 7,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "score": 50
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 7,
-                            "column": 1
-                        }
-                    },
-                    "type": "cyclomatic",
-                    "text": "Cyclomatiskkomplexitet på \"3\".",
-                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
-                    "score": 19,
-                    "value": 3,
-                    "noPlace": true
-                }
-            ],
-            "halstead": 259,
-            "cyclomatic": 3,
-            "maintainability": 73
         },
         {
             "file": "examples/finally.js",
@@ -1151,7 +960,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1167,7 +977,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1183,7 +994,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1199,7 +1011,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1215,7 +1028,8 @@
                             "column": 1
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1231,7 +1045,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1247,7 +1062,8 @@
                     },
                     "text": "finally ska aldrig användas.",
                     "desc": "Kan ge upphov till extremt konstigt programflöde!",
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\t'use strict';\n\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;\n\t}\n});"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1266,7 +1082,8 @@
                     "desc": "",
                     "score": 1092,
                     "value": 78,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;\n\t}\n});"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1282,7 +1099,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\t}\n});"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1298,7 +1116,8 @@
                             "column": 17
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1317,7 +1136,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 26,
                     "value": 25,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;\n\t}\n});"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/finally.js",
@@ -1336,12 +1156,270 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "(function wrapper() {\n\t'use strict';\n\ttry {\n\t\tbadFn();\n\t} catch (e) {\n\t\tcustom_log(e);\n\t} finally {\n\t\treturn;\n\t}\n});"
                 }
             ],
             "halstead": 25,
             "cyclomatic": 2,
             "maintainability": 78
+        },
+        {
+            "file": "examples/loop_types.js",
+            "maxScore": 9000,
+            "score": 57353,
+            "errors": [
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "All \"var\" declarations must be at the top of the function scope.",
+                    "desc": "Variable declarations should be used serially at the top of a function scope or the top of a program. By default variable declarations are always moved (“hoisted”) invisibly to the top of their containing scope by the JavaScript interpreter. This rule forces the programmer to represent that behaviour by manually moving the variable declaration to the top of its containing scope.",
+                    "loc": {
+                        "start": {
+                            "line": 5,
+                            "column": 5
+                        },
+                        "end": {
+                            "line": 5,
+                            "column": 5
+                        }
+                    },
+                    "score": 9000,
+                    "code": "\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "'y' is not defined.",
+                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 9
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9
+                        }
+                    },
+                    "score": 9000,
+                    "code": "\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "\"y\" used outside of binding context.",
+                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 9
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 9
+                        }
+                    },
+                    "score": 9000,
+                    "code": "\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "Missing semicolon.",
+                    "desc": "JavaScript is unique amongst the C-like languages in that it doesn't require semicolons at the end of each statement. In many cases, the JavaScript engine can determine that a semicolon should be in a certain spot and will automatically add it. This feature is known as automatic semicolon insertion (ASI) and is considered one of the more controversial features of JavaScript. The rationale is that it's easier to always include semicolons than to try to remember when they are or are not required, and thus decreases the possibility of introducing an error. For example, consider this code:\n`return\n{\n    name: \"ESLint\"\n}`",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 4
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 4
+                        }
+                    },
+                    "score": 9000,
+                    "code": "do {\n\td()\n} while (y);\n"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "'d' is not defined.",
+                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1
+                        }
+                    },
+                    "score": 9000,
+                    "code": "do {\n\td()\n} while (y);\n"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "\"d\" used outside of binding context.",
+                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1
+                        }
+                    },
+                    "score": 9000,
+                    "code": "do {\n\td()\n} while (y);\n"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "type": "maintainability",
+                    "text": "Maintainability på \"73\" [1-100].",
+                    "desc": "",
+                    "score": 1325,
+                    "value": 73,
+                    "noPlace": true,
+                    "code": "do {\n\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 5,
+                            "column": 32
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "text": "Tomma kodblock ska ej förekomma.",
+                    "desc": "Om det är en if/else-if sats, så negera logiken, och ta bort blocket. Annars om syfte saknas så ta bort detta block!.",
+                    "score": 1000,
+                    "code": "\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "Trailing spaces not allowed.",
+                    "desc": "Sometimes in the course of editing files, you can end up with extra whitespace at the end of lines. These whitespace differences can be picked up by source control systems and flagged as diffs, causing frustration for developers. While this extra whitespace causes no functional issues, many code conventions require that trailing spaces be removed before checkin.",
+                    "loc": {
+                        "start": {
+                            "line": 6,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 6,
+                            "column": 1
+                        }
+                    },
+                    "score": 500,
+                    "code": "for (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "type": "halstead",
+                    "text": "Halstead effort på \"259\".",
+                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
+                    "score": 259,
+                    "value": 259,
+                    "noPlace": true,
+                    "code": "do {\n\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 5,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "text": "Den enda tillåtna loop typen är WHILE.",
+                    "desc": "De andra looptyperna är svårare att läsa och är while-loopar med extra syntax. Använd .forEach, .map, .filter, .reduce funktionerna för array:er istället.",
+                    "score": 100,
+                    "code": "\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 12
+                        }
+                    },
+                    "text": "Den enda tillåtna loop typen är WHILE.",
+                    "desc": "De andra looptyperna är svårare att läsa och är while-loopar med extra syntax. Använd .forEach, .map, .filter, .reduce funktionerna för array:er istället.",
+                    "score": 100,
+                    "code": "do {\n\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {\n\t"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "text": "Newline required at end of file but not found.",
+                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
+                    "loc": {
+                        "start": {
+                            "line": 7,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "score": 50,
+                    "code": "\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/loop_types.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 7,
+                            "column": 1
+                        }
+                    },
+                    "type": "cyclomatic",
+                    "text": "Cyclomatiskkomplexitet på \"3\".",
+                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
+                    "score": 19,
+                    "value": 3,
+                    "noPlace": true,
+                    "code": "do {\n\td()\n} while (y);\n\nfor (var i = 0; i < 10; i += 1) {\n\t\n}"
+                }
+            ],
+            "halstead": 259,
+            "cyclomatic": 3,
+            "maintainability": 73
         },
         {
             "file": "examples/dubble_equals.js",
@@ -1362,7 +1440,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1378,7 +1457,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1394,7 +1474,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1410,7 +1491,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1426,7 +1508,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1442,7 +1525,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1461,7 +1545,8 @@
                     "desc": "",
                     "score": 646,
                     "value": 87,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1477,7 +1562,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1496,7 +1582,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 24,
                     "value": 24,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == 2;\r\n1 != 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dubble_equals.js",
@@ -1515,7 +1602,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == 2;\r\n1 != 2;"
                 }
             ],
             "halstead": 24,
@@ -1541,7 +1629,8 @@
                             "column": 13
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1557,7 +1646,8 @@
                             "column": 7
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1573,7 +1663,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1589,7 +1680,8 @@
                             "column": 7
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1605,7 +1697,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1624,7 +1717,8 @@
                     "desc": "",
                     "score": 649,
                     "value": 87,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1640,7 +1734,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1659,7 +1754,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 25,
                     "value": 24,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/typeof.js",
@@ -1678,7 +1774,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "typeof o === 'undefined';\r\ntypeof o === 'numbr';"
                 }
             ],
             "halstead": 24,
@@ -1704,7 +1801,8 @@
                             "column": 5
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1720,7 +1818,8 @@
                             "column": 5
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1736,7 +1835,8 @@
                             "column": 2
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1752,7 +1852,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1768,7 +1869,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1787,7 +1889,8 @@
                     "desc": "",
                     "score": 87,
                     "value": 98,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1803,7 +1906,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1822,7 +1926,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 2,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == a;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/yoda.js",
@@ -1841,7 +1946,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1 == a;"
                 }
             ],
             "halstead": 2,
@@ -1867,7 +1973,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "o['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1883,7 +1990,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "o['a' + o];\no['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1899,7 +2007,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "o['a' + o()];\no['a' + o];\no['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1915,7 +2024,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var o;\no['a' + o()];\no['a' + o];\no['a' + o.a];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1934,7 +2044,8 @@
                     "desc": "",
                     "score": 1389,
                     "value": 72,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o;\no['a' + o()];\no['a' + o];\no['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1953,7 +2064,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 525,
                     "value": 525,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o;\no['a' + o()];\no['a' + o];\no['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1969,7 +2081,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "o['a' + o.a];\no['a' + 'o'];"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/dynamic_prop_lookup.js",
@@ -1988,159 +2101,13 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o;\no['a' + o()];\no['a' + o];\no['a' + o.a];\no['a' + 'o'];"
                 }
             ],
             "halstead": 525,
             "cyclomatic": 1,
             "maintainability": 72
-        },
-        {
-            "file": "examples/assign_loop.js",
-            "maxScore": 9000,
-            "score": 36759,
-            "errors": [
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "text": "Unexpected constant condition.",
-                    "desc": "Comparing a literal expression in a condition is usually a typo or development trigger for a specific behavior.",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 0
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "text": "Expected a conditional expression and instead saw an assignment.",
-                    "desc": "In conditional statements, it is very easy to mistype a comparison operator (such as ==) as an assignment operator (such as =).",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 0
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "text": "x is defined but never used",
-                    "desc": "Variables that are declared and not used anywhere in the code are most likely an error due to incomplete refactoring. Such variables take up space in the code and can lead to confusion by readers.",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 4
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 4
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 14
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 1
-                        }
-                    },
-                    "text": "Tomma kodblock ska ej förekomma.",
-                    "desc": "Om det är en if/else-if sats, så negera logiken. Annars om syfte saknas så ta bort detta block!.",
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 1
-                        }
-                    },
-                    "type": "maintainability",
-                    "text": "Maintainability på \"86\" [1-100].",
-                    "desc": "",
-                    "score": 678,
-                    "value": 86,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "text": "Newline required at end of file but not found.",
-                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
-                    "loc": {
-                        "start": {
-                            "line": 4,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 1
-                        }
-                    },
-                    "score": 50
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 1
-                        }
-                    },
-                    "type": "halstead",
-                    "text": "Halstead effort på \"31\".",
-                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
-                    "score": 31,
-                    "value": 31,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 1
-                        }
-                    },
-                    "type": "cyclomatic",
-                    "text": "Cyclomatiskkomplexitet på \"2\".",
-                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
-                    "score": 0,
-                    "value": 2,
-                    "noPlace": true
-                }
-            ],
-            "halstead": 31,
-            "cyclomatic": 2,
-            "maintainability": 86
         },
         {
             "file": "examples/ternary.js",
@@ -2161,7 +2128,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2177,7 +2145,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2193,7 +2162,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2209,7 +2179,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2228,7 +2199,8 @@
                     "desc": "",
                     "score": 143,
                     "value": 97,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2244,7 +2216,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2263,7 +2236,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 4,
                     "value": 4,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "a ? 1 : 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ternary.js",
@@ -2282,7 +2256,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "a ? 1 : 2;"
                 }
             ],
             "halstead": 4,
@@ -2290,9 +2265,164 @@
             "maintainability": 97
         },
         {
+            "file": "examples/assign_loop.js",
+            "maxScore": 9000,
+            "score": 28759,
+            "errors": [
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "text": "Unexpected constant condition.",
+                    "desc": "Comparing a literal expression in a condition is usually a typo or development trigger for a specific behavior.",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 0
+                        }
+                    },
+                    "score": 9000,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "text": "Expected a conditional expression and instead saw an assignment.",
+                    "desc": "In conditional statements, it is very easy to mistype a comparison operator (such as ==) as an assignment operator (such as =).",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 0
+                        }
+                    },
+                    "score": 9000,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "text": "x is defined but never used",
+                    "desc": "Variables that are declared and not used anywhere in the code are most likely an error due to incomplete refactoring. Such variables take up space in the code and can lead to confusion by readers.",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4
+                        }
+                    },
+                    "score": 9000,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 14
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1
+                        }
+                    },
+                    "text": "Tomma kodblock ska ej förekomma.",
+                    "desc": "Om det är en if/else-if sats, så negera logiken, och ta bort blocket. Annars om syfte saknas så ta bort detta block!.",
+                    "score": 1000,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1
+                        }
+                    },
+                    "type": "maintainability",
+                    "text": "Maintainability på \"86\" [1-100].",
+                    "desc": "",
+                    "score": 678,
+                    "value": 86,
+                    "noPlace": true,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "text": "Newline required at end of file but not found.",
+                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
+                    "loc": {
+                        "start": {
+                            "line": 4,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1
+                        }
+                    },
+                    "score": 50,
+                    "code": "\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1
+                        }
+                    },
+                    "type": "halstead",
+                    "text": "Halstead effort på \"31\".",
+                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
+                    "score": 31,
+                    "value": 31,
+                    "noPlace": true,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/assign_loop.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 1
+                        }
+                    },
+                    "type": "cyclomatic",
+                    "text": "Cyclomatiskkomplexitet på \"2\".",
+                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
+                    "score": 0,
+                    "value": 2,
+                    "noPlace": true,
+                    "code": "var x;\nwhile (x = 5) {\n\n}"
+                }
+            ],
+            "halstead": 31,
+            "cyclomatic": 2,
+            "maintainability": 86
+        },
+        {
             "file": "examples/non_strict.js",
             "maxScore": 9000,
-            "score": 27906,
+            "score": 27916,
             "errors": [
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2308,7 +2438,8 @@
                             "column": 5
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2324,7 +2455,8 @@
                             "column": 8
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2340,7 +2472,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2356,7 +2489,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2375,7 +2509,8 @@
                     "desc": "",
                     "score": 208,
                     "value": 95,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2391,7 +2526,8 @@
                     },
                     "text": "'use strict' ska användas.",
                     "desc": "[TODO]",
-                    "score": 90
+                    "score": 100,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2407,7 +2543,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2423,7 +2560,8 @@
                             "column": 18
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2442,7 +2580,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 8,
                     "value": 8,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/non_strict.js",
@@ -2461,159 +2600,13 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 }
             ],
             "halstead": 8,
             "cyclomatic": 1,
             "maintainability": 95
-        },
-        {
-            "file": "examples/empty_block.js",
-            "maxScore": 9000,
-            "score": 27556,
-            "errors": [
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "text": "'x' is not defined.",
-                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 4
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 4
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "text": "\"x\" used outside of binding context.",
-                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 4
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 4
-                        }
-                    },
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 7
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 1
-                        }
-                    },
-                    "text": "Tomma kodblock ska ej förekomma.",
-                    "desc": "Om det är en if/else-if sats, så negera logiken. Annars om syfte saknas så ta bort detta block!.",
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "text": "Trailing spaces not allowed.",
-                    "desc": "Sometimes in the course of editing files, you can end up with extra whitespace at the end of lines. These whitespace differences can be picked up by source control systems and flagged as diffs, causing frustration for developers. While this extra whitespace causes no functional issues, many code conventions require that trailing spaces be removed before checkin.",
-                    "loc": {
-                        "start": {
-                            "line": 2,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 1
-                        }
-                    },
-                    "score": 500
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "text": "Newline required at end of file but not found.",
-                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
-                    "loc": {
-                        "start": {
-                            "line": 3,
-                            "column": 1
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 1
-                        }
-                    },
-                    "score": 50
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 1
-                        }
-                    },
-                    "type": "maintainability",
-                    "text": "Maintainability på \"100\" [1-100].",
-                    "desc": "",
-                    "score": 5,
-                    "value": 99,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 1
-                        }
-                    },
-                    "type": "halstead",
-                    "text": "Halstead effort på \"1\".",
-                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
-                    "score": 1,
-                    "value": 1,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 1
-                        }
-                    },
-                    "type": "cyclomatic",
-                    "text": "Cyclomatiskkomplexitet på \"2\".",
-                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
-                    "score": 0,
-                    "value": 2,
-                    "noPlace": true
-                }
-            ],
-            "halstead": 1,
-            "cyclomatic": 2,
-            "maintainability": 99
         },
         {
             "file": "examples/console.js",
@@ -2634,7 +2627,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2650,7 +2644,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2666,7 +2661,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2685,7 +2681,8 @@
                     "desc": "",
                     "score": 245,
                     "value": 95,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2701,7 +2698,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2720,7 +2718,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 12,
                     "value": 11,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "console.log(1);"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/console.js",
@@ -2739,7 +2738,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "console.log(1);"
                 }
             ],
             "halstead": 11,
@@ -2765,7 +2765,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2781,7 +2782,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2797,7 +2799,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2813,7 +2816,8 @@
                     },
                     "text": "+= ska användas istället.",
                     "desc": "Pga att går inte göra fel med post/pre ökning. Samt det går enkelt ändra om ett annat antal ska ökas.",
-                    "score": 80
+                    "score": 80,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2829,7 +2833,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2848,7 +2853,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 1,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2867,7 +2873,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "i++;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/plusplus.js",
@@ -2886,7 +2893,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "i++;"
                 }
             ],
             "halstead": 1,
@@ -2912,7 +2920,8 @@
                             "column": 5
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\t'use strict';\r\n\tvar me = this;\r\n\r\n\tthis.a = 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -2928,7 +2937,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -2947,7 +2957,8 @@
                     "desc": "",
                     "score": 919,
                     "value": 81,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r\n\tthis.a = 2;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -2963,7 +2974,8 @@
                             "column": 1
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "\t'use strict';\r\n\tvar me = this;\r\n\r\n\tthis.a = 2;\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -2979,7 +2991,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -2998,7 +3011,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 54,
                     "value": 53,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r\n\tthis.a = 2;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -3014,7 +3028,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\tthis.a = 2;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -3030,7 +3045,8 @@
                             "column": 20
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/this.js",
@@ -3049,7 +3065,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var fn = function fn() {\r\n\t'use strict';\r\n\tvar me = this;\r\n\r\n\tthis.a = 2;\r\n};"
                 }
             ],
             "halstead": 53,
@@ -3057,9 +3074,164 @@
             "maintainability": 81
         },
         {
+            "file": "examples/empty_block.js",
+            "maxScore": 9000,
+            "score": 19556,
+            "errors": [
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "text": "'x' is not defined.",
+                    "desc": "Any reference to an undeclared variable causes a warning, unless the variable is explicitly mentioned in a /*global ...*/ comment. This rule provides compatibility with JSHint's and JSLint's treatment of global variables.\nThis rule can help you locate potential ReferenceErrors resulting from misspellings of variable and parameter names, or accidental implicit globals (for example, from forgetting the var keyword in a for loop initializer).",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4
+                        }
+                    },
+                    "score": 9000,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "text": "\"x\" used outside of binding context.",
+                    "desc": "Variables should not be used outside of the block in which they were defined. This emulates C-style block scope, which minimizers the risk of errors of less experianced js programmers.",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 4
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 4
+                        }
+                    },
+                    "score": 9000,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 7
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1
+                        }
+                    },
+                    "text": "Tomma kodblock ska ej förekomma.",
+                    "desc": "Om det är en if/else-if sats, så negera logiken, och ta bort blocket. Annars om syfte saknas så ta bort detta block!.",
+                    "score": 1000,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "text": "Trailing spaces not allowed.",
+                    "desc": "Sometimes in the course of editing files, you can end up with extra whitespace at the end of lines. These whitespace differences can be picked up by source control systems and flagged as diffs, causing frustration for developers. While this extra whitespace causes no functional issues, many code conventions require that trailing spaces be removed before checkin.",
+                    "loc": {
+                        "start": {
+                            "line": 2,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 2,
+                            "column": 1
+                        }
+                    },
+                    "score": 500,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "text": "Newline required at end of file but not found.",
+                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
+                    "loc": {
+                        "start": {
+                            "line": 3,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1
+                        }
+                    },
+                    "score": 50,
+                    "code": "\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1
+                        }
+                    },
+                    "type": "maintainability",
+                    "text": "Maintainability på \"100\" [1-100].",
+                    "desc": "",
+                    "score": 5,
+                    "value": 99,
+                    "noPlace": true,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1
+                        }
+                    },
+                    "type": "halstead",
+                    "text": "Halstead effort på \"1\".",
+                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
+                    "score": 1,
+                    "value": 1,
+                    "noPlace": true,
+                    "code": "if (x) {\n\t\n}"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_block.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 3,
+                            "column": 1
+                        }
+                    },
+                    "type": "cyclomatic",
+                    "text": "Cyclomatiskkomplexitet på \"2\".",
+                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
+                    "score": 0,
+                    "value": 2,
+                    "noPlace": true,
+                    "code": "if (x) {\n\t\n}"
+                }
+            ],
+            "halstead": 1,
+            "cyclomatic": 2,
+            "maintainability": 99
+        },
+        {
             "file": "examples/global_strict.js",
             "maxScore": 9000,
-            "score": 18821,
+            "score": 18916,
             "errors": [
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3075,7 +3247,8 @@
                             "column": 5
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3091,7 +3264,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3107,7 +3281,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3126,7 +3301,25 @@
                     "desc": "",
                     "score": 208,
                     "value": 95,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 4,
+                            "column": 2
+                        }
+                    },
+                    "text": "\"use strict\" bör endast användas i funktions context och inte per js fil.",
+                    "desc": "Pga vid minifiering så slutar \"use strict\" fungera. Eller så kan \"use strict\" slå till på tredjeparts kod som är crap.",
+                    "score": 100,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3142,7 +3335,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3158,7 +3352,8 @@
                             "column": 18
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3177,23 +3372,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 8,
                     "value": 8,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
-                    "loc": {
-                        "start": {
-                            "line": 1,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 4,
-                            "column": 2
-                        }
-                    },
-                    "text": "\"use strict\" bör endast användas i funktions context och inte per js fil.",
-                    "desc": "Pga vid minifiering så slutar \"use strict\" fungera. Eller så kan \"use strict\" slå till på tredjeparts kod som är crap.",
-                    "score": 5
+                    "noPlace": true,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/global_strict.js",
@@ -3212,7 +3392,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "'use strict';\r\nvar a = function a() {\r\n\tvar b = 1;\r\n};"
                 }
             ],
             "halstead": 8,
@@ -3238,7 +3419,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var x;\na: x = 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/label.js",
@@ -3254,7 +3436,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var x;\na: x = 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/label.js",
@@ -3270,7 +3453,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "var x;\na: x = 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/label.js",
@@ -3289,7 +3473,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 1,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\na: x = 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/label.js",
@@ -3308,7 +3493,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\na: x = 2;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/label.js",
@@ -3327,7 +3513,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var x;\na: x = 2;"
                 }
             ],
             "halstead": 1,
@@ -3353,7 +3540,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1,2,3;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/sequence.js",
@@ -3369,7 +3557,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "1,2,3;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/sequence.js",
@@ -3385,7 +3574,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "1,2,3;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/sequence.js",
@@ -3404,7 +3594,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1,2,3;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/sequence.js",
@@ -3423,7 +3614,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1,2,3;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/sequence.js",
@@ -3442,7 +3634,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 0,
                     "value": 0,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "1,2,3;"
                 }
             ],
             "halstead": 0,
@@ -3468,7 +3661,8 @@
                             "column": 0
                         }
                     },
-                    "score": 15000
+                    "score": 15000,
+                    "code": "var o = {};\r\nwith (o) {\r\n\to.a = 1;\r\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/with.js",
@@ -3487,7 +3681,8 @@
                     "desc": "",
                     "score": 1016,
                     "value": 79,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o = {};\r\nwith (o) {\r\n\to.a = 1;\r\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/with.js",
@@ -3506,7 +3701,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 143,
                     "value": 142,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o = {};\r\nwith (o) {\r\n\to.a = 1;\r\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/with.js",
@@ -3522,7 +3718,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\to.a = 1;\r\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/with.js",
@@ -3541,7 +3738,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var o = {};\r\nwith (o) {\r\n\to.a = 1;\r\n}"
                 }
             ],
             "halstead": 142,
@@ -3567,7 +3765,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3583,7 +3782,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3599,7 +3799,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "\r\n\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3615,7 +3816,8 @@
                     },
                     "text": "En fil bör inte ha mer än 350 rader.",
                     "desc": "Bryt isär filen till fler mindre filer.",
-                    "score": 500
+                    "score": 500,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3634,7 +3836,8 @@
                     "desc": "",
                     "score": 208,
                     "value": 95,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3650,7 +3853,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3669,7 +3873,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 8,
                     "value": 8,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\r\nvar o = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/long_file.js",
@@ -3688,7 +3893,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\r\nvar o = 1;"
                 }
             ],
             "halstead": 8,
@@ -3714,7 +3920,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var x,d;\nif (NaN === x) {\n\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nan.js",
@@ -3733,7 +3940,8 @@
                     "desc": "",
                     "score": 1105,
                     "value": 77,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\nvar x,d;\nif (NaN === x) {\n\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nan.js",
@@ -3752,7 +3960,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 84,
                     "value": 84,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\nvar x,d;\nif (NaN === x) {\n\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nan.js",
@@ -3768,7 +3977,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nan.js",
@@ -3784,7 +3994,8 @@
                             "column": 6
                         }
                     },
-                    "score": 1
+                    "score": 1,
+                    "code": "\nvar x,d;\nif (NaN === x) {\n\td();"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nan.js",
@@ -3803,7 +4014,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\nvar x,d;\nif (NaN === x) {\n\td();\n}"
                 }
             ],
             "halstead": 84,
@@ -3829,7 +4041,8 @@
                             "column": 4
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "var add = function addFn (x, y) {\n\t'use strict';\n\treturn x + y;\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ok_file.js",
@@ -3848,7 +4061,8 @@
                     "desc": "",
                     "score": 658,
                     "value": 86,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var add = function addFn (x, y) {\n\t'use strict';\n\treturn x + y;\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ok_file.js",
@@ -3864,7 +4078,8 @@
                             "column": 0
                         }
                     },
-                    "score": 500
+                    "score": 500,
+                    "code": "var add = function addFn (x, y) {\n\t'use strict';\n\treturn x + y;\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ok_file.js",
@@ -3880,7 +4095,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\treturn x + y;\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ok_file.js",
@@ -3899,7 +4115,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 27,
                     "value": 27,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var add = function addFn (x, y) {\n\t'use strict';\n\treturn x + y;\n};"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/ok_file.js",
@@ -3918,7 +4135,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var add = function addFn (x, y) {\n\t'use strict';\n\treturn x + y;\n};"
                 }
             ],
             "halstead": 27,
@@ -3944,7 +4162,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "Object.prototype.a = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/native_prototype.js",
@@ -3963,7 +4182,8 @@
                     "desc": "",
                     "score": 290,
                     "value": 94,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "Object.prototype.a = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/native_prototype.js",
@@ -3979,7 +4199,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "Object.prototype.a = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/native_prototype.js",
@@ -3998,7 +4219,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 18,
                     "value": 18,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "Object.prototype.a = 1;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/native_prototype.js",
@@ -4017,7 +4239,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "Object.prototype.a = 1;"
                 }
             ],
             "halstead": 18,
@@ -4043,7 +4266,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "parseInt('010');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/parseInt.js",
@@ -4062,7 +4286,8 @@
                     "desc": "",
                     "score": 87,
                     "value": 98,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "parseInt('010');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/parseInt.js",
@@ -4078,7 +4303,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "parseInt('010');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/parseInt.js",
@@ -4097,7 +4323,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 2,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "parseInt('010');"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/parseInt.js",
@@ -4116,7 +4343,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "parseInt('010');"
                 }
             ],
             "halstead": 2,
@@ -4142,7 +4370,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "debugger;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/debugger.js",
@@ -4158,7 +4387,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "debugger;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/debugger.js",
@@ -4177,7 +4407,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "debugger;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/debugger.js",
@@ -4196,7 +4427,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "debugger;"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/debugger.js",
@@ -4215,7 +4447,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 0,
                     "value": 0,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "debugger;"
                 }
             ],
             "halstead": 0,
@@ -4241,7 +4474,8 @@
                             "column": 0
                         }
                     },
-                    "score": 9000
+                    "score": 9000,
+                    "code": "'123\\\r\n456';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/multiline_string.js",
@@ -4257,7 +4491,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "'123\\\r\n456';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/multiline_string.js",
@@ -4276,7 +4511,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "'123\\\r\n456';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/multiline_string.js",
@@ -4295,7 +4531,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "'123\\\r\n456';"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/multiline_string.js",
@@ -4314,90 +4551,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 0,
                     "value": 0,
-                    "noPlace": true
-                }
-            ],
-            "halstead": 0,
-            "cyclomatic": 1,
-            "maintainability": 100
-        },
-        {
-            "file": "examples/empty_file.js",
-            "maxScore": 9000,
-            "score": 9000,
-            "errors": [
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
-                    "loc": {
-                        "start": {
-                            "line": 0,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 0,
-                            "column": 0
-                        }
-                    },
-                    "text": "Tomma javascript filer ska ej förekomma.",
-                    "desc": "Det orsakar tidsslöseri när man navigerar runnt i koden.",
-                    "score": 9000
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
-                    "loc": {
-                        "start": {
-                            "line": 0,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 0,
-                            "column": 0
-                        }
-                    },
-                    "type": "maintainability",
-                    "text": "Maintainability på \"100\" [1-100].",
-                    "desc": "",
-                    "score": 0,
-                    "value": 100,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
-                    "loc": {
-                        "start": {
-                            "line": 0,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 0,
-                            "column": 0
-                        }
-                    },
-                    "type": "cyclomatic",
-                    "text": "Cyclomatiskkomplexitet på \"1\".",
-                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
-                    "score": 0,
-                    "value": 1,
-                    "noPlace": true
-                },
-                {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
-                    "loc": {
-                        "start": {
-                            "line": 0,
-                            "column": 0
-                        },
-                        "end": {
-                            "line": 0,
-                            "column": 0
-                        }
-                    },
-                    "type": "halstead",
-                    "text": "Halstead effort på \"0\".",
-                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
-                    "score": 0,
-                    "value": 0,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "'123\\\r\n456';"
                 }
             ],
             "halstead": 0,
@@ -4426,7 +4581,8 @@
                     "desc": "",
                     "score": 1075,
                     "value": 78,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var d;\ntry {\n\t(function myClosureFn() {\n\t\t'use strict';\n\t\ttry {\n\t\t\td();\n\t\t} catch (e) {\n\t\t\td();\n\t\t}\n\t}());\n} catch (e) {\n\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nested_try_catch.js",
@@ -4442,7 +4598,8 @@
                     },
                     "text": "Try-Catch block ska ej nästlas.",
                     "desc": "Använd en Try-Catch så långt upp i call hiarkin som möjligt som fångar alla exceptions.",
-                    "score": 500
+                    "score": 500,
+                    "code": "\t\t'use strict';\n\t\ttry {\n\t\t\td();\n\t\t} catch (e) {\n\t\t\td();\n\t\t}\n\t}());\n} catch (e) {"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nested_try_catch.js",
@@ -4458,7 +4615,8 @@
                             "column": 1
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nested_try_catch.js",
@@ -4474,7 +4632,8 @@
                             "column": 22
                         }
                     },
-                    "score": 50
+                    "score": 50,
+                    "code": "try {\n\t(function myClosureFn() {\n\t\t'use strict';\n\t\ttry {"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nested_try_catch.js",
@@ -4493,7 +4652,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 22,
                     "value": 21,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var d;\ntry {\n\t(function myClosureFn() {\n\t\t'use strict';\n\t\ttry {\n\t\t\td();\n\t\t} catch (e) {\n\t\t\td();\n\t\t}\n\t}());\n} catch (e) {\n\td();\n}"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/nested_try_catch.js",
@@ -4512,7 +4672,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 2,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "var d;\ntry {\n\t(function myClosureFn() {\n\t\t'use strict';\n\t\ttry {\n\t\t\td();\n\t\t} catch (e) {\n\t\t\td();\n\t\t}\n\t}());\n} catch (e) {\n\td();\n}"
                 }
             ],
             "halstead": 21,
@@ -4520,26 +4681,97 @@
             "maintainability": 78
         },
         {
-            "file": "examples/double_qoute.js",
-            "maxScore": 50,
-            "score": 58,
+            "file": "examples/empty_file.js",
+            "maxScore": 1000,
+            "score": 1000,
             "errors": [
                 {
-                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
-                    "text": "Newline required at end of file but not found.",
-                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
                     "loc": {
                         "start": {
-                            "line": 1,
-                            "column": 1
+                            "line": 0,
+                            "column": 0
                         },
                         "end": {
-                            "line": 1,
-                            "column": 1
+                            "line": 0,
+                            "column": 0
                         }
                     },
-                    "score": 50
+                    "text": "Tomma javascript filer ska ej förekomma.",
+                    "desc": "Det orsakar tidsslöseri när man navigerar runnt i koden. Ta bort fil eller byt filändelse.",
+                    "score": 1000,
+                    "code": ""
                 },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
+                    "loc": {
+                        "start": {
+                            "line": 0,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 0,
+                            "column": 0
+                        }
+                    },
+                    "type": "maintainability",
+                    "text": "Maintainability på \"100\" [1-100].",
+                    "desc": "",
+                    "score": 0,
+                    "value": 100,
+                    "noPlace": true,
+                    "code": ""
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
+                    "loc": {
+                        "start": {
+                            "line": 0,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 0,
+                            "column": 0
+                        }
+                    },
+                    "type": "cyclomatic",
+                    "text": "Cyclomatiskkomplexitet på \"1\".",
+                    "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
+                    "score": 0,
+                    "value": 1,
+                    "noPlace": true,
+                    "code": ""
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/empty_file.js",
+                    "loc": {
+                        "start": {
+                            "line": 0,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 0,
+                            "column": 0
+                        }
+                    },
+                    "type": "halstead",
+                    "text": "Halstead effort på \"0\".",
+                    "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
+                    "score": 0,
+                    "value": 0,
+                    "noPlace": true,
+                    "code": ""
+                }
+            ],
+            "halstead": 0,
+            "cyclomatic": 1,
+            "maintainability": 100
+        },
+        {
+            "file": "examples/double_qoute.js",
+            "maxScore": 100,
+            "score": 150,
+            "errors": [
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
                     "loc": {
@@ -4554,7 +4786,25 @@
                     },
                     "text": "Enkel citattecken ' ska användas istället för dubbel \"",
                     "desc": "Så all kod är konsikvent. Och enkelcitattecken är enklare att skriva.",
-                    "score": 8
+                    "score": 100,
+                    "code": "\"test\";"
+                },
+                {
+                    "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
+                    "text": "Newline required at end of file but not found.",
+                    "desc": "Trailing newlines in non-empty files are a common UNIX idiom. Benefits of trailing newlines include the ability to concatenate or append to files as well as output files to the terminal without interfering with shell prompts. This rule enforces newlines for all non-empty programs.",
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 1
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 1
+                        }
+                    },
+                    "score": 50,
+                    "code": "\"test\";"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
@@ -4573,7 +4823,8 @@
                     "desc": "",
                     "score": 0,
                     "value": 100,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\"test\";"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
@@ -4592,7 +4843,8 @@
                     "desc": "Anger antal kodvägar (\"branchingfactor\") på koden. Koden blir svår att ha en metal modell om för hög.",
                     "score": 0,
                     "value": 1,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\"test\";"
                 },
                 {
                     "file": "/Users/mattiasfestin/Repositories/Vulcan-JSLinter/examples/double_qoute.js",
@@ -4611,7 +4863,8 @@
                     "desc": "Anger tid som behöver läggas på underhålla komplexiteten. (Baserad på statistisk analys av frekvensen av nedlagd tid, antal buggar och komplexitet).",
                     "score": 0,
                     "value": 0,
-                    "noPlace": true
+                    "noPlace": true,
+                    "code": "\"test\";"
                 }
             ],
             "halstead": 0,
@@ -4622,8 +4875,8 @@
     "maxScore": 147435,
     "nbrFiles": 30,
     "nbrErrors": 253,
-    "avgScore": 4216.691699604743,
-    "rmsScore": 8124.244604349647,
+    "avgScore": 4087.0355731225295,
+    "rmsScore": 8045.917988929851,
     "halstead": 338.51582927045916,
     "cyclomatic": 1.4605934866804429,
     "maintainability": 89.3940713917875

@@ -158,12 +158,22 @@ var runner = function runnerFn() {
 if (require.main === module) {
     //Run
     runner();
+
+    //Output for unix interop
+    events.on('error', function (e) {
+        process.stderr.write(e);
+    });
+    events.on('report', function (r) {
+        process.stdout.write(r);
+    });
 }
 
 if (program.watch) {
     //Run runner if files changes
     vinylfs.watch(program.dir, runner);
 }
+
+
 
 module.exports = {
     run: runner,

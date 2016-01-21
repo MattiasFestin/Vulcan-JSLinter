@@ -10,17 +10,5 @@ module.exports = [
                 score: 100
             });
         }
-    },
-
-    // function (o, state, err) {
-    //  if (o.type === 'Literal' && o.raw.match('\n')) {
-    //      err.push({
-    //          file: o.__file__,
-    //          loc: o.loc,
-    //          text: 'Multiline sträng ska ej användas.',
-    //          desc: 'En buggig ES5 feature, breakar då om ett tekcen bakom "\\" (t.e.x. whitespace)',
-    //          score: 900
-    //      });
-    //  }
-    // }
+    }
 ];

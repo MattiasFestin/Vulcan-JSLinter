@@ -6,8 +6,8 @@ module.exports = [
             err.push({
                 file: o.__file__,
                 loc: o.loc,
-                text: 'En anonymfunktion bör vara namngiven.',
-                desc: '[TODO]',
+                text: 'A anonymous function should be named.',
+                desc: 'When an exception is thrown then the name of the function is in the call stack. Which makes debugging easier, especialy for asyncronious code.',
                 score: 1
             });
         }
@@ -20,7 +20,7 @@ module.exports = [
                     err.push({
                         file: o.__file__,
                         loc: firstStatement.loc,
-                        text: '\'use strict\' ska användas.',
+                        text: '\'use strict\' should be used.',
                         desc: '[TODO]',
                         score: 100
                     });
@@ -29,7 +29,7 @@ module.exports = [
                         err.push({
                             file: o.__file__,
                             loc: firstStatement.loc,
-                            text: '\'use strict\' ska ej användas nästlad. Denna rad har ingen effekt, den utgör bara en förvirring.',
+                            text: '\'use strict\' should not be nested. This line has no effect, it only takes up space and is confusing.',
                             desc: '[TODO]',
                             score: 100
                         });
