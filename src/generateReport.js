@@ -64,7 +64,6 @@ var generate = function (err) {
 
     //Sortera filerna
     var report = {
-
         files: _.chain(dict)
             .sortBy(function (o) {
                 return o.score;
@@ -93,7 +92,7 @@ var generate = function (err) {
 var print = function (program, report) {
     _.forEach(report.files, function (f, fk) {
         console.log('=-----------------------------------------------------=');
-        console.log(f.file);
+        console.log(f.file + '  (' + f.score + 'p)');
         _.forEach(f.errors, function (e) {
             console.error(' (' + e.score + 'p) ' + e.text + ' location:[row' + e.loc.start.line + ':col' + e.loc.start.column + ' - row' + e.loc.end.line + ':col' + e.loc.end.column + ']' +
                 (program.verbose ? ' <' + e.desc + '>' : '')

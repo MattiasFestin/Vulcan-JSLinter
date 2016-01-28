@@ -5,8 +5,8 @@ module.exports = [
             err.push({
                 file: o.__file__,
                 loc: o.loc,
-                text: 'Enkel citattecken \' ska användas istället för dubbel \"',
-                desc: 'Så all kod är konsikvent. Och enkelcitattecken är enklare att skriva.',
+                text: 'Single qoute  \' should be used instead of double qoute \"',
+                desc: 'All code should be consistent. And single qoute is easier to write. In js there is no diffrense between single and double qoute.',
                 score: 100
             });
         }

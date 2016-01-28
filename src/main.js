@@ -1,3 +1,4 @@
+#!/usr/bin/node
 'use strict';
 
 //Global modules
@@ -66,9 +67,12 @@ if (fs.existsSync('.vulcanrc') && !program.dir) {
 program.dir = program.dir || './**/*.js';
 program.dir = _.flatten([program.dir, '!node_modules/', '!bower_components/']);
 
+var _program = program;
 
 //Main function
-var runner = function runnerFn() {
+var runner = function runnerFn(program) {
+    program = program || _program;
+
     err = [];
     vinylfs.src(program.dir)
         .on('data', function onDataFn (file) {
@@ -108,6 +112,7 @@ var runner = function runnerFn() {
                             }
                         });
                     });
+
                     eslinter(code, file.path, program, eslintConfig, err);
                 } catch (e) {
                     if (require.main === module) { console.error('SYNTAX ERROR:' + e); }
@@ -137,16 +142,34 @@ var runner = function runnerFn() {
         .on('end', function onEndFn () {
             report = generateReport.generate(err);
 
+            var isValid = true;
+            if (program.enforce && program.enforce.quality) {
+                if (program.enforce.quality.file) {
+                    isValid = isValid && !report.files.some(function (f) {
+                        return f.score <= program.enforce.quality.file.score ||
+                            f.maintainability <= program.enforce.quality.file.maintainability;
+                    });
+                }
+            }
+
             if (require.main === module) {
                 console.log('Generateing report...');
                 generateReport.print(program, report);
             } else {
                 events.emit('report', report);
+                if (!isValid) {
+                    events.emit('error', 'Don\'t meet the standard that is enforced');
+                }
             }
 
             if (program.output) {
                 typeof program.output === 'string' ? program.output : './report.json';
                 fs.writeFile(program.output, JSON.stringify(report, true, 4), 'utf-8');
+            }
+
+            if (!isValid && require.main === module) {
+                console.log('Don\'t meet the standard that is enforced');
+                process.exit(1);
             }
         })
         .on('error', function onErrorFn (err) {

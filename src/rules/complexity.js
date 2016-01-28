@@ -14,7 +14,7 @@ module.exports = [
 
             var cyclomaticPoints = Math.max(0, Math.round(Math.pow(report.cyclomatic/3, 2)*100-81));
             var halsteadPoints = Math.round(report.effort);
-            var maintainabilityPoints = Math.round((100-report.maintainability) * 50);
+            var maintainabilityPoints = Math.floor((100-report.maintainability) * 50);
 
             err.push({
                 file: o.__file__,
