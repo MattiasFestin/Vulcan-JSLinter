@@ -8,7 +8,8 @@ var langFile = require('../config/eslint.json');
 module.exports = function (code, filename, program, config, err) {
     var lintConfig = {
         envs: _.zipObject(program.env, _.range(program.env.length).map(function (x) { return true; })),
-        rules: _.zipObject(_.keys(config), _.values(config).map(function (el) { return el.value || 2; }))
+        rules: _.zipObject(_.keys(config), _.values(config).map(function (el) { return el.value || 2; })),
+		globals: program.globals || {}
     };
 
     var messages = [];

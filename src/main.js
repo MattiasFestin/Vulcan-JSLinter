@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 'use strict';
 
 //Global modules
@@ -64,6 +64,9 @@ if (fs.existsSync('.vulcanrc') && !program.dir) {
     console.log('found rc file!');
     _.extend(program, JSON.parse(fs.readFileSync('.vulcanrc', 'utf-8')));
 }
+
+//Load globals
+// eslintConfig.globals = {};
 
 program.dir = program.dir || './**/*.js';
 program.dir = _.flatten([program.dir, '!node_modules/', '!bower_components/']);

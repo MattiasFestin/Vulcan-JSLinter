@@ -8,7 +8,7 @@ module.exports = [
                 loc: o.loc,
                 text: 'A anonymous function should be named.',
                 desc: 'When an exception is thrown then the name of the function is in the call stack. Which makes debugging easier, especialy for asyncronious code.',
-                score: 1
+                score: 100
             });
         }
     },
