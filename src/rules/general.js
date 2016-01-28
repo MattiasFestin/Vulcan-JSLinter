@@ -6,7 +6,7 @@ module.exports = [
                 file: o.__file__,
                 loc: o.loc,
                 text: 'Empty files should not exsist.',
-                desc: 'They contribute to wasted time then navigating. Remove the file or put some logic or a TODO comment inside it.Det orsakar tidsslöseri när man navigerar runnt i koden. Ta bort fil eller byt filändelse.',
+                desc: 'They contribute to wasted time then navigating. Remove the file or put some logic inside it.',
                 score: 1000
             });
         }

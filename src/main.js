@@ -2,7 +2,8 @@
 'use strict';
 
 //Global modules
-var program = require('commander'),
+var colors = require('colors'),
+	program = require('commander'),
     esprima = require('esprima'),
     vinylfs = require('vinyl-fs'),
     _ = require('lodash'),
@@ -153,7 +154,7 @@ var runner = function runnerFn(program) {
             }
 
             if (require.main === module) {
-                console.log('Generateing report...');
+                console.log('Generateing report...'.underline.gray);
                 generateReport.print(program, report);
             } else {
                 events.emit('report', report);
@@ -168,7 +169,8 @@ var runner = function runnerFn(program) {
             }
 
             if (!isValid && require.main === module) {
-                console.log('Don\'t meet the standard that is enforced');
+                console.log('Don\'t meet the standard that is enforced!'.bold.red.inverse);
+				console.log('Exited with code 1');
                 process.exit(1);
             }
         })

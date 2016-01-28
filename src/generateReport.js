@@ -1,5 +1,6 @@
 'use strict';
-var fs = require('fs'),
+var colors = require('colors'),
+	fs = require('fs'),
     path = require('path'),
     _ = require('lodash');
 
@@ -91,14 +92,36 @@ var generate = function (err) {
 
 var print = function (program, report) {
     _.forEach(report.files, function (f, fk) {
-        console.log('=-----------------------------------------------------=');
-        console.log(f.file + '  (' + f.score + 'p)');
+        console.log('=-----------------------------------------------------='.bold.gray);
+		
+		//[TODO] get from .vulcanrc
+		if (f.score >= 2500) {
+			console.log((f.file + '  (' + f.score + 'p)').bold.red);
+		} else if (f.score >= 1000) {
+			console.log((f.file + '  (' + f.score + 'p)').bold.yellow);
+		} else {
+			console.log((f.file + '  (' + f.score + 'p)').bold.green);
+		}
+        
         _.forEach(f.errors, function (e) {
-            console.error(' (' + e.score + 'p) ' + e.text + ' location:[row' + e.loc.start.line + ':col' + e.loc.start.column + ' - row' + e.loc.end.line + ':col' + e.loc.end.column + ']' +
-                (program.verbose ? ' <' + e.desc + '>' : '')
-            );
+			var msg = '';
+			if (e.score >= 1000) {
+				msg += ('(' + e.score + 'p) ').bold.red; 
+			} else if (e.score >= 100) {
+				msg += ('(' + e.score + 'p) ').bold.yellow;
+			} else {
+				msg += ('(' + e.score + 'p) ').bold.green;
+			}
+			
+			
+			msg += e.text;
+			
+			msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
+			msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;
+
+            console.error(msg);
         });
-        console.log('=-----------------------------------------------------=');
+        console.log('=-----------------------------------------------------='.bold.gray);
     });
 
     return report;
