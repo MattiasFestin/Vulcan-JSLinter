@@ -95,9 +95,9 @@ var print = function (program, report) {
         console.log('=-----------------------------------------------------='.bold.gray);
 		
 		//[TODO] get from .vulcanrc
-		if (f.score >= 2500) {
+		if (f.score >= program.enforce.quality.file.score) {
 			console.log((f.file + '  (' + f.score + 'p)').bold.red);
-		} else if (f.score >= 1000) {
+		} else if (f.score >= program.enforce.quality.file.warn) {
 			console.log((f.file + '  (' + f.score + 'p)').bold.yellow);
 		} else {
 			console.log((f.file + '  (' + f.score + 'p)').bold.green);
@@ -114,7 +114,7 @@ var print = function (program, report) {
 			}
 			
 			
-			msg += e.text;
+			msg += e.text.bold;
 			
 			msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
 			msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;

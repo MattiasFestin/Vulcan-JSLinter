@@ -30,7 +30,7 @@ module.exports = [
                 file: o.__file__,
                 loc: o.loc,
                 type: 'cyclomatic',
-                text: 'Cyclomatisc complexitet of "' + Math.round(report.cyclomatic) + '".',
+                text: 'Cyclomatic complexitet of "' + Math.round(report.cyclomatic) + '".',
                 desc: 'Gives the number of code paths or branchingfactor of the code. If too high then the code is hard to maintain a mental model of.',
                 score: cyclomaticPoints,
                 value: report.cyclomatic|0,

@@ -10,6 +10,7 @@
         "quality": {
             "file": {
                 "score": 2500,
+				"warn": 1000,
                 "maintainability": 85
             }
         }
