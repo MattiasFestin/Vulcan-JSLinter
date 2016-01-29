@@ -14,11 +14,18 @@ module.exports = [
 
     function (o, state, err) {
         if (o.type === 'BinaryExpression' && ['===', '!==', '<', '<=', '>', '>=', '+', '-', '/', '*'].indexOf(o.operator) > -1 && o.left.type === 'Literal' && o.right.type === 'Literal') {
+			
+			var replacement = o.left.value + ' ' + o.operator + ' ' + o.right.value;
+			
+			if (/^\d+$/.test(o.left.value) && /^\d+$/.test(o.right.value)) {
+				replacement = eval(replacement);
+			}
+			
             err.push({
                 file: o.__file__,
                 loc: o.loc,
                 text: o.operator + ' should not be used between two literal values.',
-                desc: o.left.value + ' ' + o.operator + ' ' + o.right.value + ' will always produce the same value. Insert the value "' + eval(o.left.value + ' ' + o.operator + ' ' + o.right.value) + '" instead.',
+                desc: o.left.value + ' ' + o.operator + ' ' + o.right.value + ' will always produce the same value. Insert the value "' + replacement + '" instead.',
                 score: 1000
             });
         }

@@ -121,7 +121,7 @@ var runner = function runnerFn(program) {
 
                     eslinter(code, file.path, program, eslintConfig, err);
                 } catch (e) {
-                    if (require.main === module) { console.error('SYNTAX ERROR:' + e); }
+                    if (require.main === module) { console.error('SYNTAX ERROR:' + e + '\n' + e.stack); }
                     err.push({
                         file: file.path,
                         stack: e.stack,
