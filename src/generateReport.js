@@ -91,38 +91,57 @@ var generate = function (err) {
 };
 
 var print = function (program, report) {
-    _.forEach(report.files, function (f, fk) {
-        console.log('=-----------------------------------------------------='.bold.gray);
+	
+	_.forEach(report.files, function (f, fk) {
 		
-		//[TODO] get from .vulcanrc
-		if (f.score >= program.enforce.quality.file.score) {
-			console.log((f.file + '  (' + f.score + 'p)').bold.red);
-		} else if (f.score >= program.enforce.quality.file.warn) {
-			console.log((f.file + '  (' + f.score + 'p)').bold.yellow);
-		} else {
-			console.log((f.file + '  (' + f.score + 'p)').bold.green);
-		}
-        
-        _.forEach(f.errors, function (e) {
-			var msg = '';
-			if (e.score >= 1000) {
-				msg += ('(' + e.score + 'p) ').bold.red; 
-			} else if (e.score >= 100) {
-				msg += ('(' + e.score + 'p) ').bold.yellow;
+		
+		if (!program.summarary) {
+			console.log('=-----------------------------------------------------='.bold.gray);
+
+			if (f.score >= program.enforce.quality.file.score) {
+				console.log((f.file + '  (' + f.score + 'p)').bold.red);
+			} else if (f.score >= program.enforce.quality.file.warn) {
+				console.log((f.file + '  (' + f.score + 'p)').bold.yellow);
 			} else {
-				msg += ('(' + e.score + 'p) ').bold.green;
+				console.log((f.file + '  (' + f.score + 'p)').bold.green);
 			}
 			
-			
-			msg += e.text.bold;
-			
-			msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
-			msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;
+			_.forEach(f.errors, function (e) {
+				var msg = '';
+				if (e.score >= 1000) {
+					msg += ('(' + e.score + 'p) ').bold.red; 
+				} else if (e.score >= 100) {
+					msg += ('(' + e.score + 'p) ').bold.yellow;
+				} else {
+					msg += ('(' + e.score + 'p) ').bold.green;
+				}
+				
+				
+				msg += e.text.bold;
+				
+				msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
+				msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;
 
-            console.error(msg);
-        });
-        console.log('=-----------------------------------------------------='.bold.gray);
-    });
+				console.error(msg);
+			});
+			console.log('=-----------------------------------------------------='.bold.gray);
+		} else {
+			if (f.score >= program.enforce.quality.file.score) {
+				console.log((f.file + '  (' + f.score + 'p)').bold.red);
+			}
+		}
+		
+	});
+	
+	console.log('======================================================='.bold.gray);
+	
+	//[TODO] COLORS
+	console.log('Maintainability: ' + report.maintainability.toFixed(1));
+	console.log('Cyclomatic: ' + report.cyclomatic.toFixed(1));
+	console.log('Halstead: ' + report.halstead.toFixed(1));
+	console.log('rmsScore: ' + report.rmsScore.toFixed(1));
+	
+	console.log('======================================================='.bold.gray);
 
     return report;
 };

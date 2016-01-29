@@ -48,6 +48,7 @@ program
     .option('-o, --output [path]', 'Directory to write report.json file.')
     .option('-e, --env [value]', 'The runtime enveoroment for the javascript.')
     .option('-v, --verbose', 'Verbose output to console.')
+	.option('-s, --summarary', 'Print only when enforced rules are broken.')
     .option('--dev', 'Developer mode, console and debugger is allowed.')
     .option('--watch', 'Watch the files.')
     .parse(process.argv);
