@@ -22,11 +22,15 @@ var traverse = function traverse(node, func, fileSrc, state) {
 
                 if (Array.isArray(child)) {
                     child.forEach(function(childNode) {
-                        childNode.__parent__ = node;
+						if (child) {
+                        	childNode.__parent__ = node;
+						}
                         traverse(childNode, func, fileSrc, node.__state__);
                     });
                 } else {
-                    child.__parent__ = node;
+					if (child) {
+                    	child.__parent__ = node;
+					}
                     traverse(child, func, fileSrc, node.__state__);
                 }
             }
@@ -64,7 +68,9 @@ var parse = function parse(ast, state, fileSrc) {
 
     if (Array.isArray(ast)) {
         ast = ast.map(function (el) {
-            el.__parent__ = ast;
+			if (el) {
+            	el.__parent__ = ast;
+			}
             parse(el, Object.create(state));
         });
     } else {
@@ -74,7 +80,9 @@ var parse = function parse(ast, state, fileSrc) {
             })
             .forEach(function (key) {
                 var child = ast[key];
-                child.__parent__ = ast;
+				if (child) {
+                	child.__parent__ = ast;
+				}
                 child = parse(child, Object.create(state));
                 ast[key] = child;
             });

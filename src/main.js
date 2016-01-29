@@ -89,7 +89,9 @@ var runner = function runnerFn(program) {
                         comment: true,
                         tolerant: true
                     });
-                    ast.__parent__ = {};
+					if (ast) {
+                    	ast.__parent__ = {};
+					}
 
                     ast.errors.forEach(function (e) {
                         //Syntaxfel som inte går att parsa

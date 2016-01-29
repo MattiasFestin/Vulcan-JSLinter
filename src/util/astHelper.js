@@ -40,7 +40,9 @@ var traverse = function traverseFn(node, func, opt) {
 
 	var eachChild = function(optChild) {
 		return function (childNode) {
-			childNode.__parent__ = node;
+			if (childNode) {
+				childNode.__parent__ = node;
+			}
 			traverseFn(childNode, optChild.func, {
 				err: opt.err,
 				fileSrc: optChild.fileSrc,
@@ -61,7 +63,9 @@ var traverse = function traverseFn(node, func, opt) {
 						node: node
 					}));
 				} else {
-					child.__parent__ = node;
+					if (child) {
+						child.__parent__ = node;
+					}
 					traverseFn(child, func, {
 						err: opt.err,
 						fileSrc: opt.fileSrc,
@@ -77,7 +81,9 @@ var findChild = function (o, type) {
 	var value = false;
 
 	var c = clone(o);
-	c.__parent__ = undefined;
+	if (c) {
+		c.__parent__ = undefined;
+	}
 
 	c = scrubb(c);
 	traverse(c, function (x) {
