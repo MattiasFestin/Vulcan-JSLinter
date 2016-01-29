@@ -136,18 +136,38 @@ var print = function (program, report) {
 	console.log('======================================================='.bold.gray);
 	
 	//[TODO] COLORS
+	var maintainabilityStr = 'Maintainability: ' + report.maintainability.toFixed(1);
 	if (report.maintainability < program.enforce.quality.maintainability) {
-		console.log('Maintainability: ' + report.maintainability.toFixed(1) + '(Should be > ' + program.enforce.quality.maintainability + ')');
+		maintainabilityStr = maintainabilityStr.bold.red + ' ' + ('(Should be > ' + program.enforce.quality.maintainability + ')').underline.gray; 
+	} else {
+		maintainabilityStr = maintainabilityStr.bold.green;
 	}
+	
+	var cyclomaticStr = 'Cyclomatic: ' + report.cyclomatic.toFixed(1);
 	if (report.cyclomatic > program.enforce.quality.cyclomatic) {
-		console.log('Cyclomatic: ' + report.cyclomatic.toFixed(1) + '(Should be < ' + program.enforce.quality.cyclomatic + ')');
+		cyclomaticStr = cyclomaticStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.cyclomatic + ')').underline.gray;
+	} else {
+		cyclomaticStr = cyclomaticStr.bold.green;
 	}
+	
+	var halsteadStr = 'Halstead: ' + report.halstead.toFixed(1);
 	if (report.halstead > program.enforce.quality.halstead) {
-		console.log('Halstead: ' + report.halstead.toFixed(1) + '(Should be < ' + program.enforce.quality.halstead + ')');
+		halsteadStr = halsteadStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.halstead + ')').underline.gray; 
+	} else {
+		halsteadStr = halsteadStr.bold.green;
 	}
+	
+	var rmsScoreStr = 'rmsScore: ' + report.rmsScore.toFixed(1);
 	if (report.rmsScore > program.enforce.quality.rmsScore) {
-		console.log('rmsScore: ' + report.rmsScore.toFixed(1) + '(Should be < ' + program.enforce.quality.rmsScore + ')');
+		rmsScoreStr = rmsScoreStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.rmsScore + ')').underline.gray;
+	} else {
+		rmsScoreStr = rmsScoreStr.bold.green;
 	}
+	
+	console.log(maintainabilityStr);
+	console.log(cyclomaticStr);
+	console.log(halsteadStr);
+	console.log(rmsScoreStr);
 	
 	console.log('======================================================='.bold.gray);
 

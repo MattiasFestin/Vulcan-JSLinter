@@ -6,11 +6,11 @@
         "./test/**/*.js"
     ],
     "enforce": {
-        "maintainability": 90,
-		"cyclomatic": 4,
-		"halstead": 2500,
-		"rmsScore": 2500,
         "quality": {
+		 	"maintainability": 90,
+			"cyclomatic": 4,
+			"halstead": 2500,
+			"rmsScore": 2500,
             "file": {
                 "score": 2500,
 				"warn": 1000,
