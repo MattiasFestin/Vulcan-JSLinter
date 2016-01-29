@@ -99,11 +99,11 @@ var print = function (program, report) {
 			console.log('=-----------------------------------------------------='.bold.gray);
 
 			if (f.score >= program.enforce.quality.file.score) {
-				console.log((f.file + '  (' + f.score + 'p)').bold.red);
+				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.red);
 			} else if (f.score >= program.enforce.quality.file.warn) {
-				console.log((f.file + '  (' + f.score + 'p)').bold.yellow);
+				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.yellow);
 			} else {
-				console.log((f.file + '  (' + f.score + 'p)').bold.green);
+				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.green);
 			}
 			
 			_.forEach(f.errors, function (e) {
@@ -127,7 +127,7 @@ var print = function (program, report) {
 			console.log('=-----------------------------------------------------='.bold.gray);
 		} else {
 			if (f.score >= program.enforce.quality.file.score) {
-				console.log((f.file + '  (' + f.score + 'p)').bold.red);
+				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.red);
 			}
 		}
 		
@@ -140,28 +140,28 @@ var print = function (program, report) {
 	if (report.maintainability < program.enforce.quality.maintainability) {
 		maintainabilityStr = maintainabilityStr.bold.red + ' ' + ('(Should be > ' + program.enforce.quality.maintainability + ')').underline.gray; 
 	} else {
-		maintainabilityStr = maintainabilityStr.bold.green;
+		maintainabilityStr = maintainabilityStr.bold.green + ' (OK)'.bold.green;
 	}
 	
 	var cyclomaticStr = 'Cyclomatic: ' + report.cyclomatic.toFixed(1);
 	if (report.cyclomatic > program.enforce.quality.cyclomatic) {
 		cyclomaticStr = cyclomaticStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.cyclomatic + ')').underline.gray;
 	} else {
-		cyclomaticStr = cyclomaticStr.bold.green;
+		cyclomaticStr = cyclomaticStr.bold.green + ' (OK)'.bold.green;
 	}
 	
 	var halsteadStr = 'Halstead: ' + report.halstead.toFixed(1);
 	if (report.halstead > program.enforce.quality.halstead) {
 		halsteadStr = halsteadStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.halstead + ')').underline.gray; 
 	} else {
-		halsteadStr = halsteadStr.bold.green;
+		halsteadStr = halsteadStr.bold.green + ' (OK)'.bold.green;
 	}
 	
 	var rmsScoreStr = 'rmsScore: ' + report.rmsScore.toFixed(1);
 	if (report.rmsScore > program.enforce.quality.rmsScore) {
 		rmsScoreStr = rmsScoreStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.rmsScore + ')').underline.gray;
 	} else {
-		rmsScoreStr = rmsScoreStr.bold.green;
+		rmsScoreStr = rmsScoreStr.bold.green + ' (OK)'.bold.green;
 	}
 	
 	console.log(maintainabilityStr);
