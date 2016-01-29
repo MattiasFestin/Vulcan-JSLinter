@@ -7,6 +7,9 @@
     ],
     "enforce": {
         "maintainability": 90,
+		"cyclomatic": 4,
+		"halstead": 2500,
+		"rmsScore": 2500,
         "quality": {
             "file": {
                 "score": 2500,

@@ -136,10 +136,18 @@ var print = function (program, report) {
 	console.log('======================================================='.bold.gray);
 	
 	//[TODO] COLORS
-	console.log('Maintainability: ' + report.maintainability.toFixed(1));
-	console.log('Cyclomatic: ' + report.cyclomatic.toFixed(1));
-	console.log('Halstead: ' + report.halstead.toFixed(1));
-	console.log('rmsScore: ' + report.rmsScore.toFixed(1));
+	if (report.maintainability < program.enforce.quality.maintainability) {
+		console.log('Maintainability: ' + report.maintainability.toFixed(1) + '(Should be > ' + program.enforce.quality.maintainability + ')');
+	}
+	if (report.cyclomatic > program.enforce.quality.cyclomatic) {
+		console.log('Cyclomatic: ' + report.cyclomatic.toFixed(1) + '(Should be < ' + program.enforce.quality.cyclomatic + ')');
+	}
+	if (report.halstead > program.enforce.quality.halstead) {
+		console.log('Halstead: ' + report.halstead.toFixed(1) + '(Should be < ' + program.enforce.quality.halstead + ')');
+	}
+	if (report.rmsScore > program.enforce.quality.rmsScore) {
+		console.log('rmsScore: ' + report.rmsScore.toFixed(1) + '(Should be < ' + program.enforce.quality.rmsScore + ')');
+	}
 	
 	console.log('======================================================='.bold.gray);
 
