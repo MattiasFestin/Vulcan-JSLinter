@@ -32,45 +32,47 @@ var memberExprToStr = function memberExprToStrFn(o) {
 
 var traverse = function traverseFn(node, func, opt) {
 	opt = opt || {};
-	opt.state = node.__state__ || opt.state || {};
-	node.__file__ = node.__file__ || opt.fileSrc;
+	if (node) {
+		opt.state = node.__state__ || opt.state || {};
+		node.__file__ = node.__file__ || opt.fileSrc;
 
-	func.call(this, node, opt.state, opt.err);
-	node.__state__ = opt.state;
+		func.call(this, node, opt.state, opt.err);
+		node.__state__ = opt.state;
 
-	var eachChild = function(optChild) {
-		return function (childNode) {
-			if (childNode) {
-				childNode.__parent__ = node;
-			}
-			traverseFn(childNode, optChild.func, {
-				err: opt.err,
-				fileSrc: optChild.fileSrc,
-				state: optChild.node.__state__
-			});
+		var eachChild = function(optChild) {
+			return function (childNode) {
+				if (childNode) {
+					childNode.__parent__ = node;
+				}
+				traverseFn(childNode, optChild.func, {
+					err: opt.err,
+					fileSrc: optChild.fileSrc,
+					state: optChild.node.__state__
+				});
+			};
 		};
-	};
 
-	for (var key in node) {
-		if (node.hasOwnProperty(key) && !key.match(/^(__|loc$|errors$|comments$|range$)/)) {
-			var child = node[key];
-			if (typeof child === 'object' && child !== null) {
+		for (var key in node) {
+			if (node.hasOwnProperty(key) && !key.match(/^(__|loc$|errors$|comments$|range$)/)) {
+				var child = node[key];
+				if (typeof child === 'object' && child !== null) {
 
-				if (Array.isArray(child)) {
-					child.forEach(eachChild({
-						func: func,
-						fileSrc: opt.fileSrc,
-						node: node
-					}));
-				} else {
-					if (child) {
-						child.__parent__ = node;
+					if (Array.isArray(child)) {
+						child.forEach(eachChild({
+							func: func,
+							fileSrc: opt.fileSrc,
+							node: node
+						}));
+					} else {
+						if (child) {
+							child.__parent__ = node;
+						}
+						traverseFn(child, func, {
+							err: opt.err,
+							fileSrc: opt.fileSrc,
+							state: node.__state__
+						});
 					}
-					traverseFn(child, func, {
-						err: opt.err,
-						fileSrc: opt.fileSrc,
-						state: node.__state__
-					});
 				}
 			}
 		}
