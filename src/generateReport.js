@@ -1,6 +1,6 @@
 'use strict';
 var colors = require('colors'),
-	fs = require('fs'),
+    fs = require('fs'),
     path = require('path'),
     _ = require('lodash');
 
@@ -91,85 +91,85 @@ var generate = function (err) {
 };
 
 var print = function (program, report) {
-	
-	_.forEach(report.files, function (f, fk) {
-		
-		
-		if (!program.summarary) {
-			console.log('=-----------------------------------------------------='.bold.gray);
 
-			if (f.score >= program.enforce.quality.file.score) {
-				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.red);
-			} else if (f.score >= program.enforce.quality.file.warn) {
-				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.yellow);
-			} else {
-				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.green);
-			}
-			
-			_.forEach(f.errors, function (e) {
-				var msg = '';
-				if (e.score >= 1000) {
-					msg += ('(' + e.score + 'p) ').bold.red; 
-				} else if (e.score >= 100) {
-					msg += ('(' + e.score + 'p) ').bold.yellow;
-				} else {
-					msg += ('(' + e.score + 'p) ').bold.green;
-				}
-				
-				
-				msg += e.text.bold;
-				
-				msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
-				msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;
+    _.forEach(report.files.reverse(), function (f, fk) {
 
-				console.error(msg);
-			});
-			console.log('=-----------------------------------------------------='.bold.gray);
-		} else {
-			if (f.score >= program.enforce.quality.file.score) {
-				console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.red);
-			}
-		}
-		
-	});
-	
-	console.log('======================================================='.bold.gray);
-	
-	//[TODO] COLORS
-	var maintainabilityStr = 'Maintainability: ' + report.maintainability.toFixed(1);
-	if (report.maintainability < program.enforce.quality.maintainability) {
-		maintainabilityStr = maintainabilityStr.bold.red + ' ' + ('(Should be > ' + program.enforce.quality.maintainability + ')').underline.gray; 
-	} else {
-		maintainabilityStr = maintainabilityStr.bold.green + ' (OK)'.bold.green;
-	}
-	
-	var cyclomaticStr = 'Cyclomatic: ' + report.cyclomatic.toFixed(1);
-	if (report.cyclomatic > program.enforce.quality.cyclomatic) {
-		cyclomaticStr = cyclomaticStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.cyclomatic + ')').underline.gray;
-	} else {
-		cyclomaticStr = cyclomaticStr.bold.green + ' (OK)'.bold.green;
-	}
-	
-	var halsteadStr = 'Halstead: ' + report.halstead.toFixed(1);
-	if (report.halstead > program.enforce.quality.halstead) {
-		halsteadStr = halsteadStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.halstead + ')').underline.gray; 
-	} else {
-		halsteadStr = halsteadStr.bold.green + ' (OK)'.bold.green;
-	}
-	
-	var rmsScoreStr = 'rmsScore: ' + report.rmsScore.toFixed(1);
-	if (report.rmsScore > program.enforce.quality.rmsScore) {
-		rmsScoreStr = rmsScoreStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.rmsScore + ')').underline.gray;
-	} else {
-		rmsScoreStr = rmsScoreStr.bold.green + ' (OK)'.bold.green;
-	}
-	
-	console.log(maintainabilityStr);
-	console.log(cyclomaticStr);
-	console.log(halsteadStr);
-	console.log(rmsScoreStr);
-	
-	console.log('======================================================='.bold.gray);
+
+        if (!program.summarary) {
+            console.log('=-----------------------------------------------------='.bold.gray);
+
+            if (f.score >= program.enforce.quality.file.score) {
+                console.log((f.file + '  (' + f.score + 'p | maintainability ' + f.maintainability + '%)').bold.red);
+            } else if (f.score >= program.enforce.quality.file.warn) {
+                console.log((f.file + '  (' + f.score + 'p | maintainability ' + f.maintainability + '%)').bold.yellow);
+            } else {
+                console.log((f.file + '  (' + f.score + 'p | maintainability ' + f.maintainability + '%)').bold.green);
+            }
+
+            _.forEach(f.errors, function (e) {
+                var msg = '';
+                if (e.score >= 1000) {
+                    msg += ('(' + e.score + 'p) ').bold.red;
+                } else if (e.score >= 100) {
+                    msg += ('(' + e.score + 'p) ').bold.yellow;
+                } else {
+                    msg += ('(' + e.score + 'p) ').bold.green;
+                }
+
+
+                msg += e.text.bold;
+
+                msg += ' ' + ('[between line' + e.loc.start.line + ':' + e.loc.start.column + ' and line' + e.loc.end.line + ':' + e.loc.end.column + ']').underline.gray;
+                msg += (program.verbose ? ' <' + e.desc + '>' : '').italic.blue;
+
+                console.error(msg);
+            });
+            console.log('=-----------------------------------------------------='.bold.gray);
+        } else {
+            if (f.score >= program.enforce.quality.file.score) {
+                console.log((f.file + '  (' + f.score + 'p | ' + f.maintainability + '%)').bold.red);
+            }
+        }
+
+    });
+
+    console.log('======================================================='.bold.gray);
+
+    //[TODO] COLORS
+    var maintainabilityStr = 'Maintainability: ' + report.maintainability.toFixed(1);
+    if (report.maintainability < program.enforce.quality.maintainability) {
+        maintainabilityStr = maintainabilityStr.bold.red + ' ' + ('(Should be > ' + program.enforce.quality.maintainability + ')').underline.gray;
+    } else {
+        maintainabilityStr = maintainabilityStr.bold.green + ' (OK)'.bold.green;
+    }
+
+    var cyclomaticStr = 'Cyclomatic: ' + report.cyclomatic.toFixed(1);
+    if (report.cyclomatic > program.enforce.quality.cyclomatic) {
+        cyclomaticStr = cyclomaticStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.cyclomatic + ')').underline.gray;
+    } else {
+        cyclomaticStr = cyclomaticStr.bold.green + ' (OK)'.bold.green;
+    }
+
+    var halsteadStr = 'Halstead: ' + report.halstead.toFixed(1);
+    if (report.halstead > program.enforce.quality.halstead) {
+        halsteadStr = halsteadStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.halstead + ')').underline.gray;
+    } else {
+        halsteadStr = halsteadStr.bold.green + ' (OK)'.bold.green;
+    }
+
+    var rmsScoreStr = 'rmsScore: ' + report.rmsScore.toFixed(1);
+    if (report.rmsScore > program.enforce.quality.rmsScore) {
+        rmsScoreStr = rmsScoreStr.bold.red + ' ' + ('(Should be < ' + program.enforce.quality.rmsScore + ')').underline.gray;
+    } else {
+        rmsScoreStr = rmsScoreStr.bold.green + ' (OK)'.bold.green;
+    }
+
+    console.log(maintainabilityStr);
+    console.log(cyclomaticStr);
+    console.log(halsteadStr);
+    console.log(rmsScoreStr);
+
+    console.log('======================================================='.bold.gray);
 
     return report;
 };

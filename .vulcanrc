@@ -5,16 +5,17 @@
     "tests": [
         "./test/**/*.js"
     ],
+    "pure": true,
     "enforce": {
         "quality": {
-		 	"maintainability": 90,
-			"cyclomatic": 4,
-			"halstead": 2500,
-			"rmsScore": 2500,
+            "maintainability": 95,
+            "cyclomatic": 4,
+            "halstead": 2500,
+            "rmsScore": 2500,
             "file": {
                 "score": 2500,
-				"warn": 1000,
-                "maintainability": 85
+                "warn": 1000,
+                "maintainability": 90
             }
         }
     },

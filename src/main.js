@@ -3,7 +3,7 @@
 
 //Global modules
 var colors = require('colors'),
-	program = require('commander'),
+    program = require('commander'),
     esprima = require('esprima'),
     vinylfs = require('vinyl-fs'),
     _ = require('lodash'),
@@ -20,7 +20,8 @@ var rules = [].concat(
         require('./rules/number.js'),
         require('./rules/loop&controll.js'),
         require('./rules/object.js'),
-        require('./rules/complexity.js')
+        require('./rules/complexity.js'),
+        require('./rules/pure.js')
     ),
     generateReport = require('./generateReport'),
     astHelper = require('./util/astHelper.js'),
@@ -48,8 +49,9 @@ program
     .option('-o, --output [path]', 'Directory to write report.json file.')
     .option('-e, --env [value]', 'The runtime enveoroment for the javascript.')
     .option('-v, --verbose', 'Verbose output to console.')
-	.option('-s, --summarary', 'Print only when enforced rules are broken.')
+    .option('-s, --summarary', 'Print only when enforced rules are broken.')
     .option('--dev', 'Developer mode, console and debugger is allowed.')
+    .option('--pure', 'Pure mode.')
     .option('--watch', 'Watch the files.')
     .parse(process.argv);
 
@@ -90,9 +92,9 @@ var runner = function runnerFn(program) {
                         comment: true,
                         tolerant: true
                     });
-					if (ast) {
-                    	ast.__parent__ = {};
-					}
+                    if (ast) {
+                        ast.__parent__ = {};
+                    }
 
                     ast.errors.forEach(function (e) {
                         //Syntaxfel som inte går att parsa
@@ -114,6 +116,7 @@ var runner = function runnerFn(program) {
                             err: err,
                             fileSrc: file.path,
                             state: {
+                                __PURE__: !!program.pure,
                                 env: program.env,
                                 devMode: program.dev
                             }
@@ -174,9 +177,9 @@ var runner = function runnerFn(program) {
                 fs.writeFile(program.output, JSON.stringify(report, true, 4), 'utf-8');
             }
 
-            if (!isValid && require.main === module) {
+            if (!isValid && require.main === module && !program.watch) {
                 console.log('Don\'t meet the standard that is enforced!'.bold.red.inverse);
-				console.log('Exited with code 1');
+                console.log('Exited with code 1');
                 process.exit(1);
             }
         })

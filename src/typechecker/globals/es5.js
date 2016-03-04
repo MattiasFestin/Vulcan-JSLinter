@@ -28,7 +28,7 @@ var _ = require('lodash'),
         //Fundemental objects
         Object: {
             __type__: {from: [], to: {__type__: [globals.Object]}, __type__: [globals.Function]},
-            __proto__: {
+            __prototype__: {
                 constructor: {from: [], to: {__type__: [globals.Object]}, __type__: [globals.Function]},
                 hasOwnProperty: {from: [{__type__: [globals.String]}], to: {__type__: [globals.Boolean]}, __type__: [globals.Function]},
                 isPrototypeOf:  {from: [{__type__: [globals.Object]}], to: {__type__: [globals.Boolean]}, __type__: [globals.Function]},
@@ -53,7 +53,6 @@ var _ = require('lodash'),
             isSealed: {from: [{__type__: [globals.Object]}], to: {__type__: [globals.Boolean]}, __type__: [globals.Function]},
             keys: {from: [{__type__: [globals.Object]}], to: {__type__: [[globals.String]]}, __type__: [globals.Function]},
             length: [globals.Number],
-            //observe
             preventExtensions: {from: [{__type__: [globals.Object]}], to: {__type__: [globals.Object]}, __type__: [globals.Function]},
             seal: {from: [{__type__: [globals.Object]}], to: {__type__: [globals.Object]}, __type__: [globals.Function]},
             //setPrototypeOf
@@ -77,14 +76,14 @@ var _ = require('lodash'),
 
         Boolean: {
             __type__: {from: [], to: {__type__: [globals.Error]}, __type__: [globals.Function]},
-            __proto__: globals.Function,
+            __prototype__: globals.Function,
 
             length: [globals.Number]
         },
 
         Error: {
             __type__: {from: [], to: {__type__: [globals.Error]}, __type__: [globals.Function]},
-            __proto__: extend(globals.Function, {
+            __prototype__: extend(globals.Function, {
                 _proto_: globals.Object,
                 message: [globals.String],
                 lineNumber: [globals.Number],
@@ -97,32 +96,32 @@ var _ = require('lodash'),
 
         EvalError: {
             __type__: {from: [], to: {__type__: [globals.EvalError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         RangeError: {
             __type__: {from: [], to: {__type__: [globals.RangeError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         ReferenceError: {
             __type__: {from: [], to: {__type__: [globals.ReferenceError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         SyntaxError: {
             __type__: {from: [], to: {__type__: [globals.SyntaxError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         TypeError: {
             __type__: {from: [], to: {__type__: [globals.TypeError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         URIError: {
             __type__: {from: [], to: {__type__: [globals.URIError]}, __type__: [globals.Function]},
-            __proto__: globals.Error.prototype
+            __prototype__: globals.Error.prototype
         },
 
         Number: {
@@ -135,7 +134,7 @@ var _ = require('lodash'),
             NEGATIVE_INFINITY: [globals.Number],
             POSITIVE_INFINITY: [globals.Number],
 
-            __proto__: {
+            __prototype__: {
                 toExponential: {from: [], to: {__type__: [globals.String]}, __type__: [globals.Function]},
                 toFixed: {from: [], to: {__type__: [globals.String]}, __type__: [globals.Function]},
                 toLocaleString: {from: [], to: {__type__: [globals.String]}, __type__: [globals.Function]},
@@ -264,7 +263,7 @@ var _ = require('lodash'),
             //'spread',
             'expr.SequenceExpression'
         ],
-        unary_pre: {
+        unaryPre: {
             '+': [globals.Number],
             '-': [globals.Number],
             '~': [globals.Number],
@@ -275,7 +274,7 @@ var _ = require('lodash'),
             'typeof': [globals.String],
             'void': [globals.undefined]
         },
-        unary_post: {
+        unaryPost: {
             '++': [globals.Number],
             '--': [globals.Number]
         },
