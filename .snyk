@@ -4,6 +4,8 @@ patch:
   'npm:hawk:20160119':
     - codecov.io > request > hawk:
         patched: '2016-09-25T19:19:46.515Z'
+    - codecov.io > request > hawk:
+        patched: '2016-10-12T09:26:12.776Z'
   'npm:negotiator:20160616':
     - karma > socket.io > engine.io > accepts > negotiator:
         patched: '2016-09-25T19:19:46.515Z'
@@ -12,9 +14,15 @@ patch:
         patched: '2016-09-25T19:19:46.515Z'
     - phantomjs > request:
         patched: '2016-09-25T19:19:46.515Z'
+    - phantomjs > request:
+        patched: '2016-10-12T09:26:12.776Z'
+    - codecov.io > request:
+        patched: '2016-10-12T09:26:12.776Z'
   'npm:tough-cookie:20160722':
     - phantomjs > request > tough-cookie:
         patched: '2016-09-25T19:19:46.515Z'
+    - phantomjs > request > tough-cookie:
+        patched: '2016-10-12T09:26:12.776Z'
   'npm:ws:20160624':
     - karma > socket.io > engine.io > ws:
         patched: '2016-09-25T19:19:46.515Z'
