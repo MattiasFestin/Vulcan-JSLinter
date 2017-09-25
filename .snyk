@@ -47,3 +47,6 @@ patch:
         patched: '2017-05-28T02:35:10.617Z'
     - karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
         patched: '2017-05-28T02:35:10.617Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2017-09-25T06:49:31.204Z'
