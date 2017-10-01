@@ -50,3 +50,20 @@ patch:
   'npm:tough-cookie:20170905':
     - phantomjs > request > tough-cookie:
         patched: '2017-09-25T06:49:31.204Z'
+  'npm:debug:20170905':
+    - karma > socket.io > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > engine.io > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-adapter > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-client > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-parser > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2017-10-01T02:35:10.782Z'
+    - karma > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2017-10-01T02:35:10.782Z'
