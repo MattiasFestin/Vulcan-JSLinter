@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.12.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -50,3 +50,11 @@ patch:
   'npm:tough-cookie:20170905':
     - phantomjs > request > tough-cookie:
         patched: '2017-09-25T06:49:31.204Z'
+  'npm:mime:20170907':
+    - codecov.io > request > form-data > mime:
+        patched: '2018-07-01T23:43:23.389Z'
+  'npm:tunnel-agent:20170305':
+    - codecov.io > request > tunnel-agent:
+        patched: '2018-07-01T23:43:23.389Z'
+    - phantomjs > request > tunnel-agent:
+        patched: '2018-07-01T23:43:23.389Z'
