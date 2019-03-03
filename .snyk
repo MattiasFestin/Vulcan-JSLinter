@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.13.3
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -50,3 +50,15 @@ patch:
   'npm:tough-cookie:20170905':
     - phantomjs > request > tough-cookie:
         patched: '2017-09-25T06:49:31.204Z'
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2019-03-03T00:43:40.804Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2019-03-03T00:43:40.804Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2019-03-03T00:43:40.804Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-03T00:43:40.804Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2019-03-03T00:43:40.804Z'
